@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="shared">
-    <output-path>$PROJECT_DIR$/Desarrollo de Interfaces/Tema0/KotlinProject/app/shared/build/libs</output-path>
+    <output-path>/datos/alexont/Proyectos/DAM2/Desarrollo de Interfaces/Tema0/KotlinProject/app/shared/build/libs</output-path>
     <root id="archive" name="shared.jar" />
   </artifact>
 </component>

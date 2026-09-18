@@ -7,14 +7,14 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$/Desarrollo de Interfaces/Tema0/KotlinProject" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/Desarrollo de Interfaces/Tema0/KotlinProject" />
-            <option value="$PROJECT_DIR$/Desarrollo de Interfaces/Tema0/KotlinProject/app" />
-            <option value="$PROJECT_DIR$/Desarrollo de Interfaces/Tema0/KotlinProject/app/androidApp" />
-            <option value="$PROJECT_DIR$/Desarrollo de Interfaces/Tema0/KotlinProject/app/desktopApp" />
-            <option value="$PROJECT_DIR$/Desarrollo de Interfaces/Tema0/KotlinProject/app/shared" />
-            <option value="$PROJECT_DIR$/Desarrollo de Interfaces/Tema0/KotlinProject/app/webApp" />
-            <option value="$PROJECT_DIR$/Desarrollo de Interfaces/Tema0/KotlinProject/core" />
-            <option value="$PROJECT_DIR$/Desarrollo de Interfaces/Tema0/KotlinProject/server" />
+            <option value="/datos/alexont/Proyectos/DAM2/Desarrollo de Interfaces/Tema0/KotlinProject" />
+            <option value="/datos/alexont/Proyectos/DAM2/Desarrollo de Interfaces/Tema0/KotlinProject/app" />
+            <option value="/datos/alexont/Proyectos/DAM2/Desarrollo de Interfaces/Tema0/KotlinProject/app/androidApp" />
+            <option value="/datos/alexont/Proyectos/DAM2/Desarrollo de Interfaces/Tema0/KotlinProject/app/desktopApp" />
+            <option value="/datos/alexont/Proyectos/DAM2/Desarrollo de Interfaces/Tema0/KotlinProject/app/shared" />
+            <option value="/datos/alexont/Proyectos/DAM2/Desarrollo de Interfaces/Tema0/KotlinProject/app/webApp" />
+            <option value="/datos/alexont/Proyectos/DAM2/Desarrollo de Interfaces/Tema0/KotlinProject/core" />
+            <option value="/datos/alexont/Proyectos/DAM2/Desarrollo de Interfaces/Tema0/KotlinProject/server" />
           </set>
         </option>
       </GradleProjectSettings>

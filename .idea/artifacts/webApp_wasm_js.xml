@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="webApp-wasm-js">
-    <output-path>$PROJECT_DIR$/Desarrollo de Interfaces/Tema0/KotlinProject/app/webApp/build/libs</output-path>
+    <output-path>/datos/alexont/Proyectos/DAM2/Desarrollo de Interfaces/Tema0/KotlinProject/app/webApp/build/libs</output-path>
     <root id="archive" name="webApp-wasm-js.jar" />
   </artifact>
 </component>
