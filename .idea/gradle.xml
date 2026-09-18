@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/Desarrollo de Interfaces/Tema0/KotlinProject" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Desarrollo de Interfaces/Tema0/KotlinProject" />
+            <option value="$PROJECT_DIR$/Desarrollo de Interfaces/Tema0/KotlinProject/app" />
+            <option value="$PROJECT_DIR$/Desarrollo de Interfaces/Tema0/KotlinProject/app/androidApp" />
+            <option value="$PROJECT_DIR$/Desarrollo de Interfaces/Tema0/KotlinProject/app/desktopApp" />
+            <option value="$PROJECT_DIR$/Desarrollo de Interfaces/Tema0/KotlinProject/app/shared" />
+            <option value="$PROJECT_DIR$/Desarrollo de Interfaces/Tema0/KotlinProject/app/webApp" />
+            <option value="$PROJECT_DIR$/Desarrollo de Interfaces/Tema0/KotlinProject/core" />
+            <option value="$PROJECT_DIR$/Desarrollo de Interfaces/Tema0/KotlinProject/server" />
+          </set>
+        </option>
       </GradleProjectSettings>
     </option>
   </component>
