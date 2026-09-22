@@ -1,6 +1,4 @@
-import java.nio.charset.MalformedInputException;
-
-public class Libro {
+public class Ej2Libro {
     //region Atributos
     private String titulo;
     private String autor;

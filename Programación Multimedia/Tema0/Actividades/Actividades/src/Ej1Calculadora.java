@@ -1,6 +1,4 @@
-import static java.lang.Math.sqrt;
-
-public class Calculadora {
+public class Ej1Calculadora {
     private int n1;
     private int n2;
 
