@@ -1,0 +1,11 @@
+3. Considera los siguientes bucles. Determina cuales son bucles infinitos, y por qué.
+
+bucle 1 - No es infinito ya que suma dos y dentro del bucle le resta uno por lo que siempre incrementa de uno en uno y llegará el momento en el que llegue a se un numero mayor o igual a 11
+
+bucle 2 - Es infinito ya que la condición de parada es que el iterador sea igual a 10, cosa que nunca va a pasar ya que se incrementa de 2 en 2 dando siempre al iterador un valor impar
+
+bucle 3 - Es infinito ya que cualquier numero multiplicado por 0 seguirá siendo 0, haciendo imposible llegar a la condición de parada
+
+bucle 4 - No es infinito ya que al multiplicar varias veces i*2 eventualmente llegará a 128, que es mayor que 100
+
+bucle 5 - No es infinito ya que al ir sumando de dos en dos y llegar a 50, este le suma uno mas, haciendo que el iterador sea impar y se cumpla la condición de parada.
