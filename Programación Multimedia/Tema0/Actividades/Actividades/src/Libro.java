@@ -11,6 +11,27 @@ public class Libro {
 
     //region Métodos
 
+    public boolean esAutor(String autor) {
+        return autor.equals(this.autor);
+    }
+
+    public boolean esTitulo(String titulo) {
+        return titulo.equals(this.titulo);
+    }
+
+    public boolean esNPags(int nPag) {
+        return (nPag == this.nPag);
+    }
+
+    public String descripcion(){
+        switch (genero){
+            case "Fantasía" -> { return "Preparate para vivir una aventura fantástica"; }
+            case "Ciencia Ficción" -> { return "Disfrutarás de una aventura más allá de tus expectativas"; }
+            case "Misterio" -> { return "No serás capaz de soltarlo"; }
+            default -> { return "Disfruta de la gran variedad de nuestra biblioteca"; }
+        }
+    }
+
     //endregion
 
     //region Setters&Getters
