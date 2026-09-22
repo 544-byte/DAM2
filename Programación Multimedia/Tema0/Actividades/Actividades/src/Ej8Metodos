@@ -1,0 +1,25 @@
+8. Lista de métodos sobrescritos y sobrecargados implementados en las subclases de CentroEducativo
+
+SOBREESCRITOS:
+- toString() -> lo sobrescriben Ej8ColegioPrimaria, Ej8InstitutoSecundaria y Ej8CentroFP. Sustituye al toString() de la superclase.
+
+- setnEstudiantes(int) -> lo sobrescriben:
+    * Ej8ColegioPrimaria, porque limita el máximo a 600 alumnos en vez de 1200.
+    * Ej8InstitutoSecundaria, porque además de validar el rango de la superclase recalcula la categoría (A, B, C o D).
+
+- setnProfesores(int) -> lo sobrescribe Ej8ColegioPrimaria, porque limita el máximo a 100 profesores en vez de 200.
+
+
+SOBRECARGADOS:
+
+- Constructores -> cada subclase declara tres constructores con parámetros distintos.
+
+- clone(...) -> cada subclase tiene un clone distinto llamando al super y cada atributo concreto.
+
+- equals(...) -> Lo mismo que el clone.
+
+- anuncioMensual() / anuncioMensual(String mes) -> sobrecarga propia de Ej8ColegioPrimaria: una versión sin parámetros y otra que recibe el mes.
+
+- anuncioCompeticion(int) / anuncioCompeticion(int, int) -> sobrecarga propia de Ej8InstitutoSecundaria: una versión con los alumnos de este centro y otra que añade los alumnos de otros institutos.
+
+- practicas() / practicas(String) -> sobrecarga propia de Ej8CentroFP: una versión con la empresa asociada y otra que recibe una empresa externa.
