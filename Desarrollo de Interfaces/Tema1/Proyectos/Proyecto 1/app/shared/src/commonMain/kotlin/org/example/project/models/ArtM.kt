@@ -1,5 +1,7 @@
 package org.example.project.models
 
+import kotlin.compareTo
+
 data class ArtM (
     val id : Int,
     val title: String,
@@ -8,6 +10,6 @@ data class ArtM (
     val desc: String
 ){
     fun isHistoric() : Boolean {
-        return year <= 1900
+        return year compareTo 1900
     }
 }
