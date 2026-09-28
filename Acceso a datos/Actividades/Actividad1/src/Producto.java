@@ -4,11 +4,12 @@ import java.time.LocalDate;
 public class Producto implements Serializable {
     //region Atributos
     private int id;
-    private String name;
+    private /*transient*/ String name;
     private double price;
     private boolean isAvailable;
     private LocalDate regDate;
     private String category;
+//    private GestionProductos nosoyserializable = new GestionProductos();
     //endregion
     
     //region Constructores
@@ -20,6 +21,15 @@ public class Producto implements Serializable {
         this.isAvailable = false;
         this.regDate = LocalDate.now();
         this.category = "";
+    }
+
+    public Producto(int id, String name, double price, boolean available, String category) {
+        setId(id);
+        setName(name);
+        setPrice(price);
+        setAvailable(available);
+        setRegDate(LocalDate.now());
+        setCategory(category);
     }
 
     public Producto(int id, String name, double price, boolean available, LocalDate regDate, String category) {
@@ -96,6 +106,7 @@ public class Producto implements Serializable {
                 ", available:" + isAvailable +
                 ", regDate:" + regDate +
                 ", category:'" + category + '\'' +
+//                ", jopetas:" + nosoyserializable.toString() +
                 '}';
     }
 
