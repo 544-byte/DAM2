@@ -21,8 +21,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            Log.d("app_name:'","${stringResource(R.string.app_name)}'")
-            Log.d("welcome_message:'","${stringResource(R.string.welcome_message)}'")
+            Log.d("app_name","${stringResource(R.string.app_name)}")
+            Log.d("welcome_message","${stringResource(R.string.welcome_message)}")
             MyApplicationTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(

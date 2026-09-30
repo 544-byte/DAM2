@@ -10,6 +10,6 @@ data class ArtM (
     val desc: String
 ){
     fun isHistoric() : Boolean {
-        return year compareTo 1900
+        return year < 1800
     }
 }
