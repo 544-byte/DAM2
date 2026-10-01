@@ -33,9 +33,34 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
+    override fun onStart() {
+        super.onStart()
+        Log.d("cambioo","onStart")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.d("cambioo","onPause")
+    }
+
+    override fun onResume(){
+        super.onResume()
+        Log.d("cambioo","onResume")
+    }
+
+    override fun onStop(){
+        super.onStop()
+        Log.d("cambioo","onStop")
+    }
+
+    override fun onDestroy(){
+        super.onDestroy()
+        Log.d("cambioo","onDestroy")
+    }
+
+
 }
-
-
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {

@@ -5,11 +5,12 @@ data class ParcelaM(
     val name : String,
     val cropType : String,
     val surface : Double,
-    val needsWater : Boolean
+    val needsWater : Boolean,
+    val isBeingWatered : Boolean
 ){
 
-    fun waterNeeded() : Int {
-        return 500*surface
+    fun waterNeeded() : Double {
+        return  500*surface
     }
 
 }
