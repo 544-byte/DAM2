@@ -8,4 +8,8 @@ data class ParcelaM(
     val needsWater : Boolean
 ){
 
+    fun waterNeeded() : Int {
+        return 500*surface
+    }
+
 }
