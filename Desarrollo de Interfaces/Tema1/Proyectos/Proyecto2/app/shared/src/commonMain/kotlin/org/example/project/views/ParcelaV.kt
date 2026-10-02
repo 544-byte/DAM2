@@ -46,7 +46,7 @@ fun ParcelaV(viewModel : ParcelaVM){
                 horizontalScroll(rememberScrollState())
             ) {
                 var i = 0
-                var numCol = 3
+                var numCol = 2
                 while (i < parcelas.size){
                     Row(
                         Modifier.align(Alignment.CenterHorizontally)

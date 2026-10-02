@@ -1,0 +1,30 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><title>Markdown</title>
+<style>
+ body{font-family:system-ui,sans-serif;max-width:900px;margin:2rem auto;padding:0 1rem;color:#222;line-height:1.5}
+ table{border-collapse:collapse;width:100%;font-size:.95rem}
+ th,td{border:1px solid #ccc;padding:.45rem .7rem;text-align:left}
+ th{background:#f2f2f2}
+ h1{font-size:1.6rem} h2{font-size:1.25rem;margin-top:2rem}
+ pre{background:#f6f8fa;border:1px solid #ddd;border-radius:6px;padding:.8rem;overflow-x:auto}
+ code{background:#eee;padding:.1rem .3rem;border-radius:4px}
+ pre code{background:none;padding:0}
+ blockquote{border-left:4px solid #ccc;margin:0;padding:.2rem 1rem;color:#555}
+ hr{border:0;border-top:2px solid #ccc;margin:1.5rem 0}
+ img{max-width:100%}
+</style></head><body><p>This is a Kotlin Multiplatform project targeting Android, iOS, Web, Desktop (JVM), Server.</p>
+<p>  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.</p>
+<ul><li><a href="./app/iosApp/iosApp">/app/iosApp</a> contains an iOS application. Even if you’re sharing your UI with Compose Multiplatform,</li></ul>
+<p>  It contains several subfolders:     For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,     the <a href="./app/shared/src/iosMain/kotlin">iosMain</a> folder would be the right place for such calls.     Similarly, if you want to edit the Desktop (JVM) specific part, the <a href="./app/shared/src/jvmMain/kotlin">jvmMain</a>     folder is the appropriate location.</p>
+<ul><li><a href="./app/shared/src">/app/shared</a> is for code that will be shared across your Compose Multiplatform applications.</li><li><a href="./app/shared/src/commonMain/kotlin">commonMain</a> is for code that’s common for all targets.</li><li>Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.</li></ul>
+<p>  The most important subfolder is <a href="./core/src/commonMain/kotlin">commonMain</a>. If preferred, you   can add code to the platform-specific folders here too.</p>
+<ul><li><a href="./core/src">/core</a> is for the code that will be shared between all targets in the project.</li></ul>
+<ul><li><a href="./server/src/main/kotlin">/server</a> is for the Ktor server application.</li></ul>
+<h3>Running the apps</h3>
+<p>Use the run configurations provided by the run widget in your IDE&#x27;s toolbar. You can also use these commands and options:</p>
+<ul><li>Android app: <code>./gradlew :app:androidApp:assembleDebug</code></li><li>Desktop app:</li><li>Hot reload: <code>./gradlew :app:desktopApp:hotRun --auto</code></li><li>Standard run: <code>./gradlew :app:desktopApp:run</code></li><li>Server: <code>./gradlew :server:run</code></li><li>Web app:</li><li>Wasm target (faster, modern browsers): <code>./gradlew :app:webApp:wasmJsBrowserDevelopmentRun</code></li><li>JS target (slower, supports older browsers): <code>./gradlew :app:webApp:jsBrowserDevelopmentRun</code></li><li>iOS app: open the <a href="./app/iosApp">/app/iosApp</a> directory in Xcode and run it from there.</li></ul>
+<h3>Running tests</h3>
+<p>Use the run button in your IDE&#x27;s editor gutter, or run tests using Gradle tasks:</p>
+<ul><li>Android tests: <code>./gradlew :app:shared:testAndroidHostTest</code></li><li>Desktop tests: <code>./gradlew :app:shared:jvmTest</code></li><li>Server tests: <code>./gradlew :server:test</code></li><li>Web tests:</li><li>Wasm target: <code>./gradlew :app:shared:wasmJsTest</code></li><li>JS target: <code>./gradlew :app:shared:jsTest</code></li><li>iOS tests: <code>./gradlew :app:shared:iosSimulatorArm64Test</code></li></ul>
+<hr>
+<p>Learn more about <a href="https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html">Kotlin Multiplatform</a>, <a href="https://kotlinlang.org/compose-multiplatform/">Compose Multiplatform</a>, <a href="https://kotl.in/wasm/">Kotlin/Wasm</a>…</p>
+<p>We would appreciate your feedback on Compose/Web and Kotlin/Wasm in the public Slack channel <a href="https://slack-chats.kotlinlang.org/c/compose-web">#compose-web</a>. If you face any issues, please report them on <a href="https://youtrack.jetbrains.com/newIssue?project=CMP">YouTrack</a>.</p></body></html>
