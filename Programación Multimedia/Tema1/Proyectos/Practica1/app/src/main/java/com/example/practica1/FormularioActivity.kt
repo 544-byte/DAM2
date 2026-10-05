@@ -37,9 +37,7 @@ class FormularioActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Practica1Theme {
-                Scaffold(modifier = Modifier.fillMaxSize()) {
-                    Formulario()
-                }
+                Formulario()
             }
         }
     }
