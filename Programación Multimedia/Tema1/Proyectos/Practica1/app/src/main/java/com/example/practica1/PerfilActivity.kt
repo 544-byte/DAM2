@@ -1,6 +1,7 @@
 package com.example.practica1
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -32,7 +33,7 @@ class PerfilActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Practica1Theme {
-                Perfil()
+                Perfil(intent)
             }
         }
     }
@@ -40,14 +41,14 @@ class PerfilActivity : ComponentActivity() {
 
 
 @Composable
-fun Perfil () {
-    var name = "[Nombre]"
-    var surname = "[Apellidos]"
-    var passwd = "[Contraseña]"
-    var tlf = "[Teléfono]"
-    var email = "[email]"
-    var dir = "[Dirección]"
-    var birthDate = "[Fecha de nacimiento]"
+fun Perfil (intent : Intent) {
+    val name = intent.getStringExtra("name") ?: "[Nombre]"
+    var surname = intent.getStringExtra("surname") ?: "[Apellidos]"
+    var passwd = intent.getStringExtra("passwd") ?: "[Contraseña]"
+    var tlf = intent.getStringExtra("tlf") ?: "[Teléfono]"
+    var email = intent.getStringExtra("email") ?: "[email]"
+    var dir = intent.getStringExtra("dir") ?: "[Dirección]"
+    var birthDate = intent.getStringExtra("birthDate") ?: "[Fecha de nacimiento]"
     Box(
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center
@@ -59,7 +60,7 @@ fun Perfil () {
                 Modifier.padding(20.dp)
             ) {
                 Text(
-                    text = name,
+                    text = "Nombre: " + name,
                     modifier = Modifier.padding(5.dp,10.dp)
                 )
                 Text(
