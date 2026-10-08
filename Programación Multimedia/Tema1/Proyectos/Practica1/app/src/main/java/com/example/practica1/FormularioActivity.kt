@@ -13,7 +13,9 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.Button
+import androidx.compose.material3.DatePicker
 import androidx.compose.material3.Card
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
@@ -25,6 +27,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import com.example.practica1.ui.theme.Practica1Theme
 
@@ -82,21 +85,24 @@ fun Formulario() {
                     Text("Contraseña")
                     TextField(
                         value = passwd,
-                        onValueChange = { text: String -> passwd = text }
+                        onValueChange = { text: String -> passwd = text },
+                        keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password)
                     )
                 }
                 Row() {
                     Text("Teléfono")
                     TextField(
                         value = tlf,
-                        onValueChange = { text: String -> tlf = text }
+                        onValueChange = { text: String -> tlf = text },
+                        keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
                     )
                 }
                 Row() {
                     Text("E-Mail")
                     TextField(
                         value = email,
-                        onValueChange = { text: String -> email = text }
+                        onValueChange = { text: String -> email = text },
+                        keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email)
                     )
                 }
                 Row() {
@@ -113,6 +119,7 @@ fun Formulario() {
                         onValueChange = { text: String -> birthDate = text }
                     )
                 }
+
                 BotonEnvio(
                     name,surname,passwd,tlf,email,dir,birthDate
                 )
