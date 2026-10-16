@@ -1,0 +1,866 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R] /Count 7 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.27 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 6988 >>
+stream
+0.120 0.280 0.450 rg 54.00 706.93 487.27 82.96 re f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 19 Tf 1 0 0 1 54.00 772.57 Tm (Tema 1 - Tecnologías móviles. Fundamentos de) Tj ET 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 19 Tf 1 0 0 1 54.00 745.59 Tm (Android - FILTRADO \(lo que entra\)) Tj ET 0 0 0 rg
+0.780 0.850 0.930 rg BT /F1 9.5 Tf 1 0 0 1 54.00 719.93 Tm (Programación Multimedia y Dispositivos Móviles - 2º DAM - Curso 26/27) Tj ET 0 0 0 rg
+0.900 0.940 0.980 rg 54.00 656.05 487.27 35.88 re f 0 0 0 rg
+0.120 0.280 0.450 rg BT /F2 14 Tf 1 0 0 1 54.00 681.01 Tm (1. Introducción) Tj ET 0 0 0 rg
+0.380 0.460 0.550 rg 467.38 665.49 m 535.27 665.49 l 538.58 665.49 541.27 668.18 541.27 671.49 c 541.27 676.49 l 541.27 679.80 538.58 682.49 535.27 682.49 c 467.38 682.49 l 464.07 682.49 461.38 679.80 461.38 676.49 c 461.38 671.49 l 461.38 668.18 464.07 665.49 467.38 665.49 c h f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 469.38 670.49 Tm (POR ENCIMA) Tj ET 0 0 0 rg
+BT /F1 11 Tf 1 0 0 1 54.00 648.97 Tm (Idea general: el smartphone + redes móviles han unificado en un solo dispositivo multitud de) Tj ET
+BT /F1 11 Tf 1 0 0 1 54.00 633.35 Tm (tareas. Antes de programar hay que conocer tecnologías, dispositivos y condicionantes.) Tj ET
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 600.45 Tm (1.1. Características de los dispositivos móviles) Tj ET 0 0 0 rg
+0.380 0.460 0.550 rg 467.38 596.15 m 535.27 596.15 l 538.58 596.15 541.27 598.84 541.27 602.15 c 541.27 607.15 l 541.27 610.46 538.58 613.15 535.27 613.15 c 467.38 613.15 l 464.07 613.15 461.38 610.46 461.38 607.15 c 461.38 602.15 l 461.38 598.84 464.07 596.15 467.38 596.15 c h f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 469.38 601.15 Tm (POR ENCIMA) Tj ET 0 0 0 rg
+BT /F1 11 Tf 1 0 0 1 54.00 579.69 Tm (Definición: aparato con capacidad de procesado y almacenamiento, pequeño, portable, con) Tj ET
+BT /F1 11 Tf 1 0 0 1 54.00 564.07 Tm (autonomía de batería y conexión permanente/semipermanente a red, con variadas funciones. 4) Tj ET
+BT /F1 11 Tf 1 0 0 1 54.00 548.45 Tm (bloques:) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 529.91 Tm (1.) Tj ET
+BT /F2 11 Tf 1 0 0 1 92.17 526.83 Tm (Capacidad de procesado) Tj ET
+BT /F1 11 Tf 1 0 0 1 222.38 526.83 Tm (: cálculo + almacenamiento -> se les llama microordenadores.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 510.29 Tm (2.) Tj ET
+BT /F2 11 Tf 1 0 0 1 92.17 507.21 Tm (Tamaño) Tj ET
+BT /F1 11 Tf 1 0 0 1 134.35 507.21 Tm (: portabilidad extrema, acompaña al usuario siempre.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 490.67 Tm (3.) Tj ET
+BT /F2 11 Tf 1 0 0 1 92.17 487.59 Tm (Movilidad) Tj ET
+BT /F1 11 Tf 1 0 0 1 142.91 487.59 Tm (: sin cables para alimentación/comunicación. Pilares: pequeño tamaño + batería) Tj ET
+BT /F1 11 Tf 1 0 0 1 92.17 471.97 Tm (+ comunicación inalámbrica.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 455.43 Tm (4.) Tj ET
+BT /F2 11 Tf 1 0 0 1 92.17 452.35 Tm (Conectividad) Tj ET
+BT /F1 11 Tf 1 0 0 1 161.24 452.35 Tm (: redes móviles + redes de datos -> nuevo paradigma.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 435.81 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 432.73 Tm (Extra: SO, diseño, ergonomía, pantalla, gadgets/sensores.) Tj ET
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 401.83 Tm (1.2. Tipos de dispositivos móviles \(por encima - ver los tipos\)) Tj ET 0 0 0 rg
+BT /F2 11 Tf 1 0 0 1 78.00 384.15 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 381.07 Tm (Teléfonos móviles) Tj ET
+BT /F1 11 Tf 1 0 0 1 182.82 381.07 Tm (: solo voz \(+ SMS, cámara, agenda en algunos\).) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 364.53 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 361.45 Tm (Handhelds) Tj ET
+BT /F1 11 Tf 1 0 0 1 143.08 361.45 Tm (: agenda/organizador, pantalla plegable sobre teclado, apps) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 345.83 Tm (científicas/financieras.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 329.29 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 326.21 Tm (Netbooks) Tj ET
+BT /F1 11 Tf 1 0 0 1 136.97 326.21 Tm (: 1999 Psion, hasta 2007. Compactos, baratos, ofimática + internet.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 309.67 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 306.59 Tm (E-Book Readers) Tj ET
+BT /F1 11 Tf 1 0 0 1 171.81 306.59 Tm (: leer documentos, ligeros, gran almacenaje, bajo consumo, tinta) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 290.97 Tm (electrónica e-Ink.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 274.43 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 271.35 Tm (Tablets) Tj ET
+BT /F1 11 Tf 1 0 0 1 125.36 271.35 Tm (: entre móvil y PC, ligereza + autonomía + táctil. Popularización por iPad Apple.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 254.81 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 251.73 Tm (PDA \(Personal Digital Assistant\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 256.16 251.73 Tm (: organizador digital, lápiz stylus, decayeron con) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 236.11 Tm (smartphones.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 219.57 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 216.49 Tm (Smartphones) Tj ET
+BT /F1 11 Tf 1 0 0 1 157.14 216.49 Tm (: teléfono + prestaciones de PC + sensores \(cámara, GPS...\), pantalla alta) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 200.87 Tm (calidad, conectividad múltiple, gran procesado/almacenaje.) Tj ET
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 169.97 Tm (1.3. Limitaciones de los dispositivos móviles) Tj ET 0 0 0 rg
+0.380 0.460 0.550 rg 467.38 165.67 m 535.27 165.67 l 538.58 165.67 541.27 168.36 541.27 171.67 c 541.27 176.67 l 541.27 179.98 538.58 182.67 535.27 182.67 c 467.38 182.67 l 464.07 182.67 461.38 179.98 461.38 176.67 c 461.38 171.67 l 461.38 168.36 464.07 165.67 467.38 165.67 c h f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 469.38 170.67 Tm (POR ENCIMA) Tj ET 0 0 0 rg
+BT /F2 11 Tf 1 0 0 1 78.00 152.29 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 149.21 Tm (No prototipar solo para gama alta: si va bien en gama baja, irá mejor en alta. Optimizar CPU.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 132.67 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 129.59 Tm (Diversidad de ) Tj ET
+BT /F2 11 Tf 1 0 0 1 157.15 129.59 Tm (pantalla) Tj ET
+BT /F1 11 Tf 1 0 0 1 198.72 129.59 Tm ( \(tamaños/resoluciones\) y ) Tj ET
+BT /F2 11 Tf 1 0 0 1 327.71 129.59 Tm (sensores) Tj ET
+BT /F1 11 Tf 1 0 0 1 376.01 129.59 Tm ( \(puede impedir instalar\).) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 113.05 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 109.97 Tm (Diferencias de ) Tj ET
+BT /F2 11 Tf 1 0 0 1 160.21 109.97 Tm (plataforma/versiones) Tj ET
+BT /F1 11 Tf 1 0 0 1 270.86 109.97 Tm (: no hay retrocompatibilidad garantizada. Cuidado con) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 94.35 Tm (librerías de terceros.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 77.81 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 74.73 Tm (Red) Tj ET
+BT /F1 11 Tf 1 0 0 1 107.63 74.73 Tm (: ancho de banda limitado, desconexiones por cobertura -> no exigir conexión constante.) Tj ET
+0.780 0.830 0.890 RG 0.7 w 54.00 40.00 m 541.27 40.00 l S 0 0 0 RG
+0.450 0.500 0.570 rg BT /F1 8 Tf 1 0 0 1 54.00 28.00 Tm (Tema 1 - Tecnologías móviles - filtrado) Tj ET 0 0 0 rg
+0.450 0.500 0.570 rg BT /F1 8 Tf 1 0 0 1 491.90 28.00 Tm (Página 1 de 7) Tj ET 0 0 0 rg
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.27 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 7712 >>
+stream
+BT /F2 11 Tf 1 0 0 1 78.00 785.89 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 782.81 Tm (Probar en el máximo de dispositivos reales; si no, usar ) Tj ET
+BT /F2 11 Tf 1 0 0 1 356.45 782.81 Tm (emuladores \(AVD\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 451.80 782.81 Tm (.) Tj ET
+0.700 0.770 0.860 RG 1 w 54.00 758.27 m 541.27 758.27 l S 0 0 0 RG
+0.900 0.940 0.980 rg 54.00 707.39 487.27 35.88 re f 0 0 0 rg
+0.120 0.280 0.450 rg BT /F2 14 Tf 1 0 0 1 54.00 732.35 Tm (2. Sistemas operativos móviles) Tj ET 0 0 0 rg
+0.150 0.500 0.250 rg 521.82 716.83 m 535.27 716.83 l 538.58 716.83 541.27 719.52 541.27 722.83 c 541.27 727.83 l 541.27 731.14 538.58 733.83 535.27 733.83 c 521.82 733.83 l 518.51 733.83 515.82 731.14 515.82 727.83 c 515.82 722.83 l 515.82 719.52 518.51 716.83 521.82 716.83 c h f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 523.82 721.83 Tm (SI) Tj ET 0 0 0 rg
+BT /F1 11 Tf 1 0 0 1 54.00 700.31 Tm (Modelo de capas \(de hardware hacia arriba\):) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 681.77 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 678.69 Tm (Núcleo o kernel) Tj ET
+BT /F1 11 Tf 1 0 0 1 168.77 678.69 Tm (: acceso hardware vía drivers, gestión procesos, memoria, sistema de) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 663.07 Tm (archivos.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 646.53 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 643.45 Tm (Middleware) Tj ET
+BT /F1 11 Tf 1 0 0 1 146.76 643.45 Tm (: módulos transparentes al usuario \(mensajería, códecs multimedia, intérpretes) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 627.83 Tm (web, gestión dispositivo, seguridad\).) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 611.29 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 608.21 Tm (Entorno de ejecución) Tj ET
+BT /F1 11 Tf 1 0 0 1 198.71 608.21 Tm (: gestor de apps e interfaces abiertas para desarrolladores.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 591.67 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 588.59 Tm (Interfaces de usuario) Tj ET
+BT /F1 11 Tf 1 0 0 1 197.50 588.59 Tm (: presentación visual \(botones, pantallas, listas\) + marco de) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 572.97 Tm (interacción.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 556.43 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 553.35 Tm (Aplicaciones nativas) Tj ET
+BT /F1 11 Tf 1 0 0 1 195.67 553.35 Tm (: propias de cada modelo/fabricante.) Tj ET
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 522.45 Tm (2.1. Android) Tj ET 0 0 0 rg
+0.150 0.500 0.250 rg 521.82 518.15 m 535.27 518.15 l 538.58 518.15 541.27 520.84 541.27 524.15 c 541.27 529.15 l 541.27 532.46 538.58 535.15 535.27 535.15 c 521.82 535.15 l 518.51 535.15 515.82 532.46 515.82 529.15 c 515.82 524.15 l 515.82 520.84 518.51 518.15 521.82 518.15 c h f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 523.82 523.15 Tm (SI) Tj ET 0 0 0 rg
+BT /F2 11 Tf 1 0 0 1 78.00 504.77 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 501.69 Tm (Lanzado ) Tj ET
+BT /F2 11 Tf 1 0 0 1 132.10 501.69 Tm (2007) Tj ET
+BT /F1 11 Tf 1 0 0 1 156.57 501.69 Tm (, líder del mercado. Desarrollado por ) Tj ET
+BT /F2 11 Tf 1 0 0 1 338.13 501.69 Tm (Open Handset Alliance \(OHA, 78) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 486.07 Tm (compañías lideradas por Google\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 261.07 486.07 Tm (.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 469.53 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 466.45 Tm (Carácter ) Tj ET
+BT /F2 11 Tf 1 0 0 1 132.08 466.45 Tm (abierto) Tj ET
+BT /F1 11 Tf 1 0 0 1 168.76 466.45 Tm (: kernel bajo ) Tj ET
+BT /F2 11 Tf 1 0 0 1 231.73 466.45 Tm (GNU GPLv2) Tj ET
+BT /F1 11 Tf 1 0 0 1 294.08 466.45 Tm (, resto bajo ) Tj ET
+BT /F2 11 Tf 1 0 0 1 351.55 466.45 Tm (Apache v2) Tj ET
+BT /F1 11 Tf 1 0 0 1 406.58 466.45 Tm (.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 449.91 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 446.83 Tm (Arquitectura en capas:) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 430.29 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 427.21 Tm (a\) ) Tj ET
+BT /F2 11 Tf 1 0 0 1 99.69 427.21 Tm (Kernel Linux) Tj ET
+BT /F1 11 Tf 1 0 0 1 166.31 427.21 Tm (: base del runtime ART \(hilos, memoria bajo nivel\).) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 410.67 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 407.59 Tm (b\) ) Tj ET
+BT /F2 11 Tf 1 0 0 1 99.69 407.59 Tm (HAL \(Hardware Abstraction Layer\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 279.38 407.59 Tm (: enlaza hardware con framework. Una librería por) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 391.97 Tm (componente \(cámara, bluetooth...\).) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 375.43 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 372.35 Tm (c\) ) Tj ET
+BT /F2 11 Tf 1 0 0 1 99.07 372.35 Tm (Runtime \(ART\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 176.06 372.35 Tm (: cada app corre en su proceso con su instancia ART. Ejecuta ) Tj ET
+BT /F2 11 Tf 1 0 0 1 480.54 372.35 Tm (archivos) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 356.73 Tm (DEX) Tj ET
+BT /F1 11 Tf 1 0 0 1 109.47 356.73 Tm ( \(bytecode Android, mínimo consumo de memoria\), varias VM en poca memoria.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 340.19 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 337.11 Tm (d\) ) Tj ET
+BT /F2 11 Tf 1 0 0 1 99.69 337.11 Tm (Bibliotecas nativas C/C++) Tj ET
+BT /F1 11 Tf 1 0 0 1 234.18 337.11 Tm (: muchos servicios dependen de código nativo, expuestas vía) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 321.49 Tm (API.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 304.95 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 301.87 Tm (e\) ) Tj ET
+BT /F2 11 Tf 1 0 0 1 99.69 301.87 Tm (Framework Java API) Tj ET
+BT /F1 11 Tf 1 0 0 1 207.29 301.87 Tm (: todo el SO accesible vía API Java.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 285.33 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 282.25 Tm (f\) ) Tj ET
+BT /F2 11 Tf 1 0 0 1 96.63 282.25 Tm (Apps del sistema) Tj ET
+BT /F1 11 Tf 1 0 0 1 187.10 282.25 Tm (: email, SMS, calendario, navegador.) Tj ET
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 251.35 Tm (2.2. iOS - sí) Tj ET 0 0 0 rg
+BT /F2 11 Tf 1 0 0 1 78.00 233.67 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 230.59 Tm (De Apple, antes ) Tj ET
+BT /F2 11 Tf 1 0 0 1 168.17 230.59 Tm (iPhoneOS) Tj ET
+BT /F1 11 Tf 1 0 0 1 220.74 230.59 Tm (, derivado de ) Tj ET
+BT /F2 11 Tf 1 0 0 1 287.39 230.59 Tm (MacOS X) Tj ET
+BT /F1 11 Tf 1 0 0 1 335.08 230.59 Tm (. Fuerte: integración hardware-software +) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 214.97 Tm (pantalla multitáctil \(manipulación directa\). Arquitectura en capas \(arriba = más alto nivel para) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 199.35 Tm (desarrollo\):) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 182.81 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 179.73 Tm (a\) ) Tj ET
+BT /F2 11 Tf 1 0 0 1 99.69 179.73 Tm (Cocoa Touch) Tj ET
+BT /F1 11 Tf 1 0 0 1 169.36 179.73 Tm ( \(superior, visible\): UIKit \(interfaz\) + Foundation \(objetos, servicios SO\).) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 163.19 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 160.11 Tm (b\) ) Tj ET
+BT /F2 11 Tf 1 0 0 1 99.69 160.11 Tm (Media Services) Tj ET
+BT /F1 11 Tf 1 0 0 1 179.17 160.11 Tm (: audio, gráficos, multimedia.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 143.57 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 140.49 Tm (c\) ) Tj ET
+BT /F2 11 Tf 1 0 0 1 99.07 140.49 Tm (Core Services) Tj ET
+BT /F1 11 Tf 1 0 0 1 172.44 140.49 Tm (: base de datos, red.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 123.95 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 120.87 Tm (d\) ) Tj ET
+BT /F2 11 Tf 1 0 0 1 99.69 120.87 Tm (Core OS) Tj ET
+BT /F1 11 Tf 1 0 0 1 143.70 120.87 Tm (: núcleo bajo nivel \(memoria, seguridad, drivers\).) Tj ET
+0.780 0.830 0.890 RG 0.7 w 54.00 40.00 m 541.27 40.00 l S 0 0 0 RG
+0.450 0.500 0.570 rg BT /F1 8 Tf 1 0 0 1 54.00 28.00 Tm (Tema 1 - Tecnologías móviles - filtrado) Tj ET 0 0 0 rg
+0.450 0.500 0.570 rg BT /F1 8 Tf 1 0 0 1 491.90 28.00 Tm (Página 2 de 7) Tj ET 0 0 0 rg
+0.550 0.600 0.660 rg BT /F1 7.5 Tf 1 0 0 1 54.00 803.89 Tm (TEMA 1 - TECNOLOGÍAS MÓVILES \(FILTRADO\)) Tj ET 0 0 0 rg
+0.820 0.860 0.910 RG 0.6 w 54.00 798.39 m 541.27 798.39 l S 0 0 0 RG
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.27 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 8672 >>
+stream
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 782.53 Tm (2.3. Otros SO) Tj ET 0 0 0 rg
+0.700 0.160 0.160 rg 496.83 778.23 m 535.27 778.23 l 538.58 778.23 541.27 780.92 541.27 784.23 c 541.27 789.23 l 541.27 792.54 538.58 795.23 535.27 795.23 c 496.83 795.23 l 493.52 795.23 490.83 792.54 490.83 789.23 c 490.83 784.23 l 490.83 780.92 493.52 778.23 496.83 778.23 c h f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 498.83 783.23 Tm (FUERA) Tj ET 0 0 0 rg
+0.980 0.900 0.900 rg 54.00 727.03 487.27 43.82 re f 0 0 0 rg
+0.700 0.160 0.160 rg 54.00 727.03 3.50 43.82 re f 0 0 0 rg
+0.450 0.120 0.120 rg BT /F2 10.5 Tf 1 0 0 1 64.00 761.91 Tm (FUERA - ) Tj ET 0 0 0 rg
+0.450 0.120 0.120 rg BT /F1 10.5 Tf 1 0 0 1 108.92 761.91 Tm (Omitido: SymbianOS, BlackBerryOS, Windows Phone / 10 Mobile, Ubuntu Touch. No) Tj ET 0 0 0 rg
+0.450 0.120 0.120 rg BT /F1 10.5 Tf 1 0 0 1 64.00 747.00 Tm (estudiar.) Tj ET 0 0 0 rg
+0.700 0.770 0.860 RG 1 w 54.00 717.03 m 541.27 717.03 l S 0 0 0 RG
+0.900 0.940 0.980 rg 54.00 666.15 487.27 35.88 re f 0 0 0 rg
+0.120 0.280 0.450 rg BT /F2 14 Tf 1 0 0 1 54.00 691.11 Tm (3. Nociones previas al desarrollo) Tj ET 0 0 0 rg
+0.380 0.460 0.550 rg 474.59 675.59 m 535.27 675.59 l 538.58 675.59 541.27 678.28 541.27 681.59 c 541.27 686.59 l 541.27 689.90 538.58 692.59 535.27 692.59 c 474.59 692.59 l 471.28 692.59 468.59 689.90 468.59 686.59 c 468.59 681.59 l 468.59 678.28 471.28 675.59 474.59 675.59 c h f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 476.59 680.59 Tm (SELECTIVO) Tj ET 0 0 0 rg
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 649.79 Tm (3.1. Desarrollo nativo) Tj ET 0 0 0 rg
+0.150 0.500 0.250 rg 420.70 645.49 m 535.27 645.49 l 538.58 645.49 541.27 648.18 541.27 651.49 c 541.27 656.49 l 541.27 659.80 538.58 662.49 535.27 662.49 c 420.70 662.49 l 417.39 662.49 414.70 659.80 414.70 656.49 c 414.70 651.49 l 414.70 648.18 417.39 645.49 420.70 645.49 c h f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 422.70 650.49 Tm (HAY QUE SABÉRSELO) Tj ET 0 0 0 rg
+BT /F2 11 Tf 1 0 0 1 78.00 632.11 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 629.03 Tm (Cada plataforma usa lenguajes/herramientas propios.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 612.49 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 609.41 Tm (Ventaja: ) Tj ET
+BT /F2 11 Tf 1 0 0 1 130.27 609.41 Tm (flexibilidad total, adaptación total, máximo rendimiento) Tj ET
+BT /F1 11 Tf 1 0 0 1 418.17 609.41 Tm (.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 592.87 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 589.79 Tm (Desventaja: para multi-entorno hay que dominar varios lenguajes/herramientas -> más) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 574.17 Tm (tiempo. Los programadores suelen especializarse en una plataforma.) Tj ET
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 543.27 Tm (3.1.1. Desarrollo multiplataforma compilado a nativo) Tj ET 0 0 0 rg
+0.380 0.460 0.550 rg 464.05 538.97 m 535.27 538.97 l 538.58 538.97 541.27 541.66 541.27 544.97 c 541.27 549.97 l 541.27 553.28 538.58 555.97 535.27 555.97 c 464.05 555.97 l 460.74 555.97 458.05 553.28 458.05 549.97 c 458.05 544.97 l 458.05 541.66 460.74 538.97 464.05 538.97 c h f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 466.05 543.97 Tm (SECUNDARIO) Tj ET 0 0 0 rg
+BT /F2 11 Tf 1 0 0 1 78.00 525.59 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 522.51 Tm (Idea: un solo lenguaje para todas las plataformas, con pequeñas adaptaciones. Se compila a) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 506.89 Tm (código nativo) Tj ET
+BT /F1 11 Tf 1 0 0 1 158.36 506.89 Tm ( -> mismo rendimiento que nativo + acceso directo a API y controles UI) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 491.27 Tm (nativos.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 474.73 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 471.65 Tm (Ejemplo: ) Tj ET
+BT /F2 11 Tf 1 0 0 1 132.70 471.65 Tm (Xamarin \(C# + .NET, reutiliza código menos la interfaz\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 417.86 471.65 Tm (, hoy descontinuado en) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 456.03 Tm (favor de ) Tj ET
+BT /F2 11 Tf 1 0 0 1 129.65 456.03 Tm (.NET MAUI) Tj ET
+BT /F1 11 Tf 1 0 0 1 185.87 456.03 Tm (.) Tj ET
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 425.13 Tm (3.2. IDEs) Tj ET 0 0 0 rg
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 393.09 Tm (3.2.1. iOS) Tj ET 0 0 0 rg
+0.380 0.460 0.550 rg 467.38 388.79 m 535.27 388.79 l 538.58 388.79 541.27 391.48 541.27 394.79 c 541.27 399.79 l 541.27 403.10 538.58 405.79 535.27 405.79 c 467.38 405.79 l 464.07 405.79 461.38 403.10 461.38 399.79 c 461.38 394.79 l 461.38 391.48 464.07 388.79 467.38 388.79 c h f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 469.38 393.79 Tm (POR ENCIMA) Tj ET 0 0 0 rg
+BT /F2 11 Tf 1 0 0 1 78.00 375.41 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 372.33 Tm (Lenguaje: ) Tj ET
+BT /F2 11 Tf 1 0 0 1 138.22 372.33 Tm (Swift) Tj ET
+BT /F1 11 Tf 1 0 0 1 164.50 372.33 Tm ( \(para Cocoa/Cocoa Touch, mejor que Objective-C: menos tolerante a) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 356.71 Tm (errores, sintaxis más simple\).) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 340.17 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 337.09 Tm (IDE: ) Tj ET
+BT /F2 11 Tf 1 0 0 1 111.30 337.09 Tm (Xcode) Tj ET
+BT /F1 11 Tf 1 0 0 1 144.31 337.09 Tm ( \(solo MacOS\) + Interface Builder + depuración.) Tj ET
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 306.19 Tm (3.2.2. Android) Tj ET 0 0 0 rg
+0.150 0.500 0.250 rg 521.82 301.89 m 535.27 301.89 l 538.58 301.89 541.27 304.58 541.27 307.89 c 541.27 312.89 l 541.27 316.20 538.58 318.89 535.27 318.89 c 521.82 318.89 l 518.51 318.89 515.82 316.20 515.82 312.89 c 515.82 307.89 l 515.82 304.58 518.51 301.89 521.82 301.89 c h f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 523.82 306.89 Tm (SI) Tj ET 0 0 0 rg
+BT /F2 11 Tf 1 0 0 1 78.00 288.51 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 285.43 Tm (Lenguaje: ) Tj ET
+BT /F2 11 Tf 1 0 0 1 138.22 285.43 Tm (Kotlin) Tj ET
+BT /F1 11 Tf 1 0 0 1 169.38 285.43 Tm ( \(oficial/preferente, interoperabilidad 100% con Java\). Moderno, conciso,) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 269.81 Tm (null-safety, corrutinas para asincronía.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 253.27 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 250.19 Tm (UI moderna: ) Tj ET
+BT /F2 11 Tf 1 0 0 1 150.43 250.19 Tm (Jetpack Compose) Tj ET
+BT /F1 11 Tf 1 0 0 1 244.57 250.19 Tm ( \(declarativo en Kotlin\). ) Tj ET
+BT /F2 11 Tf 1 0 0 1 360.11 250.19 Tm (XML) Tj ET
+BT /F1 11 Tf 1 0 0 1 383.33 250.19 Tm ( sigue para recursos \(strings,) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 234.57 Tm (colores, dimensiones, vectores\) y mantenimiento de layouts clásicos.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 218.03 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 214.95 Tm (IDE: ) Tj ET
+BT /F2 11 Tf 1 0 0 1 111.30 214.95 Tm (Android Studio) Tj ET
+BT /F1 11 Tf 1 0 0 1 190.75 214.95 Tm ( \(Google, sobre IntelliJ IDEA de JetBrains\). Compilación con ) Tj ET
+BT /F2 11 Tf 1 0 0 1 487.86 214.95 Tm (Gradle) Tj ET
+BT /F1 11 Tf 1 0 0 1 522.70 214.95 Tm (,) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 199.33 Tm (emulación con ) Tj ET
+BT /F2 11 Tf 1 0 0 1 160.82 199.33 Tm (AVD) Tj ET
+BT /F1 11 Tf 1 0 0 1 184.05 199.33 Tm (.) Tj ET
+0.700 0.770 0.860 RG 1 w 54.00 174.79 m 541.27 174.79 l S 0 0 0 RG
+0.900 0.940 0.980 rg 54.00 123.91 487.27 35.88 re f 0 0 0 rg
+0.120 0.280 0.450 rg BT /F2 14 Tf 1 0 0 1 54.00 148.87 Tm (4. Desarrollo de aplicaciones Android) Tj ET 0 0 0 rg
+0.150 0.500 0.250 rg 465.16 133.35 m 535.27 133.35 l 538.58 133.35 541.27 136.04 541.27 139.35 c 541.27 144.35 l 541.27 147.66 538.58 150.35 535.27 150.35 c 465.16 150.35 l 461.85 150.35 459.16 147.66 459.16 144.35 c 459.16 139.35 l 459.16 136.04 461.85 133.35 465.16 133.35 c h f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 467.16 138.35 Tm (IMPORTANTE) Tj ET 0 0 0 rg
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 107.55 Tm (4.1. Componentes de una aplicación) Tj ET 0 0 0 rg
+0.150 0.500 0.250 rg 465.16 103.25 m 535.27 103.25 l 538.58 103.25 541.27 105.94 541.27 109.25 c 541.27 114.25 l 541.27 117.56 538.58 120.25 535.27 120.25 c 465.16 120.25 l 461.85 120.25 459.16 117.56 459.16 114.25 c 459.16 109.25 l 459.16 105.94 461.85 103.25 465.16 103.25 c h f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 467.16 108.25 Tm (IMPORTANTE) Tj ET 0 0 0 rg
+BT /F1 11 Tf 1 0 0 1 54.00 86.79 Tm (4 tipos, cada uno con fin y ciclo de vida propios:) Tj ET
+0.780 0.830 0.890 RG 0.7 w 54.00 40.00 m 541.27 40.00 l S 0 0 0 RG
+0.450 0.500 0.570 rg BT /F1 8 Tf 1 0 0 1 54.00 28.00 Tm (Tema 1 - Tecnologías móviles - filtrado) Tj ET 0 0 0 rg
+0.450 0.500 0.570 rg BT /F1 8 Tf 1 0 0 1 491.90 28.00 Tm (Página 3 de 7) Tj ET 0 0 0 rg
+0.550 0.600 0.660 rg BT /F1 7.5 Tf 1 0 0 1 54.00 803.89 Tm (TEMA 1 - TECNOLOGÍAS MÓVILES \(FILTRADO\)) Tj ET 0 0 0 rg
+0.820 0.860 0.910 RG 0.6 w 54.00 798.39 m 541.27 798.39 l S 0 0 0 RG
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.27 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 10819 >>
+stream
+BT /F2 11 Tf 1 0 0 1 78.00 785.89 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 782.81 Tm (Activity) Tj ET
+BT /F1 11 Tf 1 0 0 1 126.58 782.81 Tm (: pantalla con UI, gestiona interacción con usuario. Una app puede tener varias que) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 767.19 Tm (colaboran.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 750.65 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 747.57 Tm (Service) Tj ET
+BT /F1 11 Tf 1 0 0 1 125.99 747.57 Tm (: corre en fondo, operaciones largas o remotas. Sin UI. Una Activity puede iniciarlo o) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 731.95 Tm (enlazarse.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 715.41 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 712.33 Tm (Content Provider) Tj ET
+BT /F1 11 Tf 1 0 0 1 176.08 712.33 Tm (: gestiona datos para compartir. Otras apps pueden consultar/modificar \(si) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 696.71 Tm (se permite\).) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 680.17 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 677.09 Tm (Broadcast Receiver) Tj ET
+BT /F1 11 Tf 1 0 0 1 189.56 677.09 Tm (: responde a broadcasts del sistema. Normalmente hace poco trabajo y) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 661.47 Tm (enlaza con otros componentes.) Tj ET
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 630.57 Tm (4.2. Android Manifest) Tj ET 0 0 0 rg
+0.150 0.500 0.250 rg 465.16 626.27 m 535.27 626.27 l 538.58 626.27 541.27 628.96 541.27 632.27 c 541.27 637.27 l 541.27 640.58 538.58 643.27 535.27 643.27 c 465.16 643.27 l 461.85 643.27 459.16 640.58 459.16 637.27 c 459.16 632.27 l 459.16 628.96 461.85 626.27 465.16 626.27 c h f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 467.16 631.27 Tm (IMPORTANTE) Tj ET 0 0 0 rg
+BT /F2 11 Tf 1 0 0 1 78.00 612.89 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 609.81 Tm (Archivo ) Tj ET
+0.93 0.93 0.94 rg 125.08 607.31 128.40 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 126.58 609.81 Tm (AndroidManifest.xml) Tj ET
+BT /F1 11 Tf 1 0 0 1 251.98 609.81 Tm (. El sistema lo lee para reconocer componentes.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 593.27 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 590.19 Tm (Todas las apps lo tienen; ) Tj ET
+BT /F2 11 Tf 1 0 0 1 212.19 590.19 Tm (todos los componentes deben declararse aquí) Tj ET
+BT /F1 11 Tf 1 0 0 1 454.88 590.19 Tm (.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 573.65 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 570.57 Tm (Funciones: informar componentes, registrar ) Tj ET
+BT /F2 11 Tf 1 0 0 1 302.65 570.57 Tm (permisos) Tj ET
+BT /F1 11 Tf 1 0 0 1 351.55 570.57 Tm (, ) Tj ET
+BT /F2 11 Tf 1 0 0 1 357.67 570.57 Tm (librerías) Tj ET
+BT /F1 11 Tf 1 0 0 1 400.47 570.57 Tm (, necesidades) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 554.95 Tm (hardware/software) Tj ET
+BT /F1 11 Tf 1 0 0 1 184.05 554.95 Tm (, ) Tj ET
+BT /F2 11 Tf 1 0 0 1 190.16 554.95 Tm (nivel API mínimo) Tj ET
+BT /F1 11 Tf 1 0 0 1 278.80 554.95 Tm (. Escrito en lenguaje de marcas.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 538.41 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 535.33 Tm (Ejemplo típico: declara ) Tj ET
+0.93 0.93 0.94 rg 199.67 532.83 82.20 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 201.17 535.33 Tm (MainActivity) Tj ET
+BT /F1 11 Tf 1 0 0 1 280.37 535.33 Tm ( como punto de entrada \() Tj ET
+0.93 0.93 0.94 rg 401.78 532.83 75.60 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 403.28 535.33 Tm (action MAIN) Tj ET
+BT /F1 11 Tf 1 0 0 1 475.88 535.33 Tm ( + ) Tj ET
+0.93 0.93 0.94 rg 486.92 532.83 55.80 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 488.42 535.33 Tm (category) Tj ET
+0.93 0.93 0.94 rg 85.35 517.21 55.80 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 86.85 519.71 Tm (LAUNCHER) Tj ET
+BT /F1 11 Tf 1 0 0 1 139.65 519.71 Tm (\), con ) Tj ET
+0.93 0.93 0.94 rg 168.72 517.21 102.00 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 170.22 519.71 Tm (exported="true") Tj ET
+BT /F1 11 Tf 1 0 0 1 269.22 519.71 Tm (, icono, label, tema.) Tj ET
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 488.81 Tm (4.3. Recursos de una aplicación) Tj ET 0 0 0 rg
+0.380 0.460 0.550 rg 464.05 484.51 m 535.27 484.51 l 538.58 484.51 541.27 487.20 541.27 490.51 c 541.27 495.51 l 541.27 498.82 538.58 501.51 535.27 501.51 c 464.05 501.51 l 460.74 501.51 458.05 498.82 458.05 495.51 c 458.05 490.51 l 458.05 487.20 460.74 484.51 464.05 484.51 c h f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 466.05 489.51 Tm (SECUNDARIO) Tj ET 0 0 0 rg
+BT /F2 11 Tf 1 0 0 1 78.00 471.13 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 468.05 Tm (Idea: datos que usa la app \(imágenes, textos, estilos\) + código = aplicación.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 451.51 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 448.43 Tm (Predeterminados) Tj ET
+BT /F1 11 Tf 1 0 0 1 176.71 448.43 Tm ( \(siempre\) vs ) Tj ET
+BT /F2 11 Tf 1 0 0 1 243.32 448.43 Tm (alternativos) Tj ET
+BT /F1 11 Tf 1 0 0 1 305.07 448.43 Tm ( \(según configuración: tablet, pantalla grande...) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 432.81 Tm (-> responsividad\).) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 416.27 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 413.19 Tm (Gestionados en XML, con ) Tj ET
+BT /F2 11 Tf 1 0 0 1 216.47 413.19 Tm (id) Tj ET
+BT /F1 11 Tf 1 0 0 1 226.25 413.19 Tm (, en subcarpetas de ) Tj ET
+0.93 0.93 0.94 rg 324.42 410.69 29.40 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 325.92 413.19 Tm (res/) Tj ET
+BT /F2 11 Tf 1 0 0 1 352.32 413.19 Tm ( \(nombres predefinidos por) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 397.57 Tm (Android\):) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 381.03 Tm (•) Tj ET
+0.93 0.93 0.94 rg 85.35 375.45 55.80 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 86.85 377.95 Tm (drawable) Tj ET
+BT /F1 11 Tf 1 0 0 1 139.65 377.95 Tm (: bitmaps / escalables, formas y colores.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 361.41 Tm (•) Tj ET
+0.93 0.93 0.94 rg 85.35 355.83 42.60 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 86.85 358.33 Tm (layout) Tj ET
+BT /F1 11 Tf 1 0 0 1 126.45 358.33 Tm (: XML con elementos visuales de la interfaz.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 341.79 Tm (•) Tj ET
+0.93 0.93 0.94 rg 85.35 336.21 55.80 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 86.85 338.71 Tm (animator) Tj ET
+BT /F1 11 Tf 1 0 0 1 139.65 338.71 Tm (: animaciones \(rotación, fading, movimiento, estiramiento\), un XML por animación.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 322.17 Tm (•) Tj ET
+0.93 0.93 0.94 rg 85.35 316.59 42.60 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 86.85 319.09 Tm (mipmap) Tj ET
+BT /F1 11 Tf 1 0 0 1 126.45 319.09 Tm (: bitmaps, se usa para el ) Tj ET
+BT /F2 11 Tf 1 0 0 1 249.34 319.09 Tm (icono de la app) Tj ET
+BT /F1 11 Tf 1 0 0 1 329.42 319.09 Tm (.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 302.55 Tm (•) Tj ET
+0.93 0.93 0.94 rg 85.35 296.97 29.40 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 86.85 299.47 Tm (menu) Tj ET
+BT /F1 11 Tf 1 0 0 1 113.25 299.47 Tm (: menús, submenús, barras de navegación.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 282.93 Tm (•) Tj ET
+0.93 0.93 0.94 rg 85.35 277.35 42.60 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 86.85 279.85 Tm (values) Tj ET
+BT /F1 11 Tf 1 0 0 1 126.45 279.85 Tm (: genérico \(colores, dimensiones, strings, estilos\).) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 263.31 Tm (•) Tj ET
+0.93 0.93 0.94 rg 85.35 257.73 22.80 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 86.85 260.23 Tm (xml) Tj ET
+BT /F1 11 Tf 1 0 0 1 106.65 260.23 Tm (: XML de soporte \(p. ej. configuración de búsqueda\).) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 243.69 Tm (•) Tj ET
+0.93 0.93 0.94 rg 85.35 238.11 22.80 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 86.85 240.61 Tm (raw) Tj ET
+BT /F1 11 Tf 1 0 0 1 106.65 240.61 Tm (: audio/vídeo raw \(limitación de nombres: sin mayúsculas/números/especiales; si) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 224.99 Tm (necesitas nombre real usa ) Tj ET
+0.93 0.93 0.94 rg 217.41 222.49 49.20 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 218.91 224.99 Tm (assets/) Tj ET
+BT /F1 11 Tf 1 0 0 1 265.11 224.99 Tm (\).) Tj ET
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 194.09 Tm (4.4. La clase R) Tj ET 0 0 0 rg
+0.150 0.500 0.250 rg 465.16 189.79 m 535.27 189.79 l 538.58 189.79 541.27 192.48 541.27 195.79 c 541.27 200.79 l 541.27 204.10 538.58 206.79 535.27 206.79 c 465.16 206.79 l 461.85 206.79 459.16 204.10 459.16 200.79 c 459.16 195.79 l 459.16 192.48 461.85 189.79 465.16 189.79 c h f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 467.16 194.79 Tm (IMPORTANTE) Tj ET 0 0 0 rg
+BT /F2 11 Tf 1 0 0 1 78.00 176.41 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 173.33 Tm (Contiene ) Tj ET
+BT /F2 11 Tf 1 0 0 1 133.93 173.33 Tm (variables estáticas) Tj ET
+BT /F1 11 Tf 1 0 0 1 231.76 173.33 Tm ( que identifican cada recurso. Android carga XML en memoria) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 157.71 Tm (y mantiene ) Tj ET
+0.93 0.93 0.94 rg 142.21 155.21 9.60 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 143.71 157.71 Tm (R) Tj ET
+BT /F1 11 Tf 1 0 0 1 150.31 157.71 Tm ( como referencia directa \(cada atributo -> dirección de memoria de un recurso\).) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 141.17 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 138.09 Tm (En Kotlin: clases estáticas internas por tipo \() Tj ET
+0.93 0.93 0.94 rg 301.77 135.59 55.80 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 303.27 138.09 Tm (R.string) Tj ET
+BT /F1 11 Tf 1 0 0 1 356.07 138.09 Tm (, ) Tj ET
+0.93 0.93 0.94 rg 360.69 135.59 55.80 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 362.19 138.09 Tm (R.layout) Tj ET
+BT /F1 11 Tf 1 0 0 1 414.99 138.09 Tm (, ) Tj ET
+0.93 0.93 0.94 rg 419.61 135.59 69.00 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 421.11 138.09 Tm (R.drawable) Tj ET
+BT /F1 11 Tf 1 0 0 1 487.11 138.09 Tm (, ) Tj ET
+0.93 0.93 0.94 rg 491.72 135.59 29.40 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 493.22 138.09 Tm (R.id) Tj ET
+BT /F1 11 Tf 1 0 0 1 519.62 138.09 Tm (...\).) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 122.47 Tm (No guardan los datos, guardan ) Tj ET
+BT /F2 11 Tf 1 0 0 1 240.94 122.47 Tm (Int únicos) Tj ET
+BT /F1 11 Tf 1 0 0 1 292.89 122.47 Tm ( \(claves en la tabla de recursos empaquetada\).) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 105.93 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 102.85 Tm (Uso en ejecución: ) Tj ET
+0.93 0.93 0.94 rg 175.84 100.35 187.80 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 177.34 102.85 Tm (getString\(R.string.app_name\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 362.14 102.85 Tm (, ) Tj ET
+0.93 0.93 0.94 rg 366.75 100.35 135.00 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 368.25 102.85 Tm (painterResource\(id =) Tj ET
+0.93 0.93 0.94 rg 85.35 84.73 115.20 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 86.85 87.23 Tm (R.drawable.icono\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 199.05 87.23 Tm ( -> el framework carga solo lo pedido bajo demanda.) Tj ET
+0.780 0.830 0.890 RG 0.7 w 54.00 40.00 m 541.27 40.00 l S 0 0 0 RG
+0.450 0.500 0.570 rg BT /F1 8 Tf 1 0 0 1 54.00 28.00 Tm (Tema 1 - Tecnologías móviles - filtrado) Tj ET 0 0 0 rg
+0.450 0.500 0.570 rg BT /F1 8 Tf 1 0 0 1 491.90 28.00 Tm (Página 4 de 7) Tj ET 0 0 0 rg
+0.550 0.600 0.660 rg BT /F1 7.5 Tf 1 0 0 1 54.00 803.89 Tm (TEMA 1 - TECNOLOGÍAS MÓVILES \(FILTRADO\)) Tj ET 0 0 0 rg
+0.820 0.860 0.910 RG 0.6 w 54.00 798.39 m 541.27 798.39 l S 0 0 0 RG
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.27 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 9560 >>
+stream
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 782.53 Tm (4.5. Actividades) Tj ET 0 0 0 rg
+0.780 0.320 0.080 rg 427.93 778.23 m 535.27 778.23 l 538.58 778.23 541.27 780.92 541.27 784.23 c 541.27 789.23 l 541.27 792.54 538.58 795.23 535.27 795.23 c 427.93 795.23 l 424.62 795.23 421.93 792.54 421.93 789.23 c 421.93 784.23 l 421.93 780.92 424.62 778.23 427.93 778.23 c h f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 429.93 783.23 Tm (SUPER IMPORTANTE) Tj ET 0 0 0 rg
+BT /F2 11 Tf 1 0 0 1 78.00 762.85 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 759.77 Tm (Activity = pantalla) Tj ET
+BT /F1 11 Tf 1 0 0 1 180.69 759.77 Tm (. Hereda de clase ) Tj ET
+0.93 0.93 0.94 rg 268.46 757.27 55.80 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 269.96 759.77 Tm (Activity) Tj ET
+BT /F1 11 Tf 1 0 0 1 322.76 759.77 Tm (. En general: tantas Activities como) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 744.15 Tm (pantallas.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 727.61 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 724.53 Tm (Varias Activities vinculadas con secuencia según lógica/flujo y decisiones del usuario. Desde) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 708.91 Tm (main se navega de una a otra.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 692.37 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 689.29 Tm (Android recuerda la secuencia en una pila: ) Tj ET
+BT /F2 11 Tf 1 0 0 1 298.40 689.29 Tm (Back Stack) Tj ET
+BT /F1 11 Tf 1 0 0 1 357.10 689.29 Tm (. Al iniciar una actividad nueva,) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 673.67 Tm (obtiene el foco y se empuja arriba; la anterior queda detenida en la pila. Retroceder =) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 658.05 Tm (desapilar en orden inverso.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 641.51 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 638.43 Tm (Tarea \(Task\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 151.65 638.43 Tm (: conjunto de actividades con relación lógica en la pila. Puede ir a segundo) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 622.81 Tm (plano \(usuario abre otra tarea o va a Inicio\): todo se para pero el Back Stack se conserva. Al) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 607.19 Tm (volver a primer plano, se retoma donde se dejó.) Tj ET
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 576.29 Tm (4.5.1. Ciclo de vida de una actividad) Tj ET 0 0 0 rg
+0.780 0.320 0.080 rg 505.70 571.99 m 535.27 571.99 l 538.58 571.99 541.27 574.68 541.27 577.99 c 541.27 582.99 l 541.27 586.30 538.58 588.99 535.27 588.99 c 505.70 588.99 l 502.39 588.99 499.70 586.30 499.70 582.99 c 499.70 577.99 l 499.70 574.68 502.39 571.99 505.70 571.99 c h f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 507.70 576.99 Tm (100%) Tj ET 0 0 0 rg
+BT /F1 11 Tf 1 0 0 1 54.00 555.53 Tm (Estados:) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 536.99 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 533.91 Tm (Nueva) Tj ET
+BT /F1 11 Tf 1 0 0 1 119.86 533.91 Tm (: sin memoria, no interactuable.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 517.37 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 514.29 Tm (Detenida) Tj ET
+BT /F1 11 Tf 1 0 0 1 133.30 514.29 Tm (: en memoria, no visible, no accesible.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 497.75 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 494.67 Tm (Pausada) Tj ET
+BT /F1 11 Tf 1 0 0 1 132.09 494.67 Tm (: visible pero no interactuable.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 478.13 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 475.05 Tm (Activa) Tj ET
+BT /F1 11 Tf 1 0 0 1 119.86 475.05 Tm (: en primer plano, interactuable.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 458.51 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 455.43 Tm (Eliminada) Tj ET
+BT /F1 11 Tf 1 0 0 1 138.81 455.43 Tm (: borrada de memoria.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54.00 433.81 Tm (Callbacks \(llamados por Android\):) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 415.27 Tm (•) Tj ET
+0.93 0.93 0.94 rg 85.35 409.69 69.00 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 86.85 412.19 Tm (onCreate\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 152.85 412.19 Tm (: primera invocación. Crea vistas/UI, reserva memoria, ) Tj ET
+0.93 0.93 0.94 rg 419.70 409.69 95.40 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 421.20 412.19 Tm (findViewById\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 513.60 412.19 Tm (,) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 396.57 Tm (consultas iniciales, guarda variables entorno.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 380.03 Tm (•) Tj ET
+0.93 0.93 0.94 rg 85.35 374.45 62.40 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 86.85 376.95 Tm (onStart\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 146.25 376.95 Tm (: tras ) Tj ET
+0.93 0.93 0.94 rg 172.26 374.45 69.00 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 173.76 376.95 Tm (onCreate\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 239.76 376.95 Tm (. Visible pero aún no interactuable. Instrucciones asociadas a) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 361.33 Tm (UI.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 344.79 Tm (•) Tj ET
+0.93 0.93 0.94 rg 85.35 339.21 69.00 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 86.85 341.71 Tm (onResume\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 152.85 341.71 Tm (: pasa a interactuable. Tras ) Tj ET
+0.93 0.93 0.94 rg 287.69 339.21 62.40 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 289.19 341.71 Tm (onStart\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 348.59 341.71 Tm (, antes de ) Tj ET
+0.93 0.93 0.94 rg 398.46 339.21 62.40 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 399.96 341.71 Tm (onPause\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 459.36 341.71 Tm (. Activar) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 326.09 Tm (sensores/cámara, animaciones, actualizar info.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 309.55 Tm (•) Tj ET
+0.93 0.93 0.94 rg 85.35 303.97 62.40 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 86.85 306.47 Tm (onPause\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 146.25 306.47 Tm (: pasa a segundo plano \(se va a destruir o la sustituye otra\). Parcialmente) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 290.85 Tm (visible. Detener procesos/animaciones. Puede volver a ) Tj ET
+0.93 0.93 0.94 rg 356.18 288.35 69.00 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 357.68 290.85 Tm (onResume\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 423.68 290.85 Tm ( o ir a ) Tj ET
+0.93 0.93 0.94 rg 452.75 288.35 55.80 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 454.25 290.85 Tm (onStop\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 507.05 290.85 Tm (.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 274.31 Tm (•) Tj ET
+0.93 0.93 0.94 rg 85.35 268.73 55.80 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 86.85 271.23 Tm (onStop\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 139.65 271.23 Tm (: ya no visible \(otra en primer plano\). Pausa animaciones, detiene servicios) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 255.61 Tm (\(GPS\), minimiza recursos, conserva datos en memoria. Reactivar con ) Tj ET
+0.93 0.93 0.94 rg 428.89 253.11 75.60 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 430.39 255.61 Tm (onRestart\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 502.99 255.61 Tm ( o) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 239.99 Tm (eliminar con ) Tj ET
+0.93 0.93 0.94 rg 147.70 237.49 75.60 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 149.20 239.99 Tm (onDestroy\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 221.80 239.99 Tm (.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 223.45 Tm (•) Tj ET
+0.93 0.93 0.94 rg 85.35 217.87 75.60 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 86.85 220.37 Tm (onRestart\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 159.45 220.37 Tm (: actividad parada vuelve a primer plano. Siempre le sigue ) Tj ET
+0.93 0.93 0.94 rg 444.07 217.87 62.40 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 445.57 220.37 Tm (onStart\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 504.97 220.37 Tm (.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 203.83 Tm (•) Tj ET
+0.93 0.93 0.94 rg 85.35 198.25 75.60 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 86.85 200.75 Tm (onDestroy\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 159.45 200.75 Tm (: destrucción definitiva, fuera de memoria. Limpiar/liberar recursos.) Tj ET
+BT /F1 11 Tf 1 0 0 1 54.00 179.13 Tm (Ciclos:) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 160.59 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 157.51 Tm (Completo) Tj ET
+BT /F1 11 Tf 1 0 0 1 137.57 157.51 Tm (: ) Tj ET
+0.93 0.93 0.94 rg 142.19 155.01 69.00 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 143.69 157.51 Tm (onCreate\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 209.69 157.51 Tm ( -> ) Tj ET
+0.93 0.93 0.94 rg 219.80 155.01 75.60 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 221.30 157.51 Tm (onDestroy\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 293.90 157.51 Tm (.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 140.97 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 137.89 Tm (Visible) Tj ET
+BT /F1 11 Tf 1 0 0 1 122.31 137.89 Tm (: ) Tj ET
+0.93 0.93 0.94 rg 126.93 135.39 62.40 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 128.43 137.89 Tm (onStart\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 187.83 137.89 Tm ( -> ) Tj ET
+0.93 0.93 0.94 rg 197.95 135.39 55.80 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 199.45 137.89 Tm (onStop\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 252.25 137.89 Tm ( \(usuario la ve en pantalla\).) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 121.35 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 118.27 Tm (Primer plano) Tj ET
+BT /F1 11 Tf 1 0 0 1 154.09 118.27 Tm (: ) Tj ET
+0.93 0.93 0.94 rg 158.71 115.77 69.00 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 160.21 118.27 Tm (onResume\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 226.21 118.27 Tm ( -> ) Tj ET
+0.93 0.93 0.94 rg 236.32 115.77 62.40 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 237.82 118.27 Tm (onPause\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 297.22 118.27 Tm ( \(tiene el foco, por encima de todas\).) Tj ET
+0.780 0.830 0.890 RG 0.7 w 54.00 40.00 m 541.27 40.00 l S 0 0 0 RG
+0.450 0.500 0.570 rg BT /F1 8 Tf 1 0 0 1 54.00 28.00 Tm (Tema 1 - Tecnologías móviles - filtrado) Tj ET 0 0 0 rg
+0.450 0.500 0.570 rg BT /F1 8 Tf 1 0 0 1 491.90 28.00 Tm (Página 5 de 7) Tj ET 0 0 0 rg
+0.550 0.600 0.660 rg BT /F1 7.5 Tf 1 0 0 1 54.00 803.89 Tm (TEMA 1 - TECNOLOGÍAS MÓVILES \(FILTRADO\)) Tj ET 0 0 0 rg
+0.820 0.860 0.910 RG 0.6 w 54.00 798.39 m 541.27 798.39 l S 0 0 0 RG
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.27 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 19 0 R >>
+endobj
+19 0 obj
+<< /Length 9262 >>
+stream
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 782.53 Tm (4.6. Intents y filtros) Tj ET 0 0 0 rg
+0.150 0.500 0.250 rg 465.16 778.23 m 535.27 778.23 l 538.58 778.23 541.27 780.92 541.27 784.23 c 541.27 789.23 l 541.27 792.54 538.58 795.23 535.27 795.23 c 465.16 795.23 l 461.85 795.23 459.16 792.54 459.16 789.23 c 459.16 784.23 l 459.16 780.92 461.85 778.23 465.16 778.23 c h f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 467.16 783.23 Tm (IMPORTANTE) Tj ET 0 0 0 rg
+BT /F2 11 Tf 1 0 0 1 78.00 762.85 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 759.77 Tm (Intent) Tj ET
+BT /F1 11 Tf 1 0 0 1 116.79 759.77 Tm ( = comunicación entre componentes \(misma o distintas apps\). Permite iniciar) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 744.15 Tm (app/servicio, entregar mensaje, enviar/recibir info entre actividades/servicios, difundir) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 728.53 Tm (eventos a receptores. Permite reutilizar \(p. ej. abrir cámara sin programarla\).) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 711.99 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 708.91 Tm (Dos tipos: explícitos e implícitos.) Tj ET
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 678.01 Tm (4.6.1. Intent explícito) Tj ET 0 0 0 rg
+BT /F2 11 Tf 1 0 0 1 78.00 660.33 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 657.25 Tm (Se conoce el ) Tj ET
+BT /F2 11 Tf 1 0 0 1 153.50 657.25 Tm (componente destino exacto) Tj ET
+BT /F1 11 Tf 1 0 0 1 298.97 657.25 Tm ( \(normalmente del propio paquete\). Para) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 641.63 Tm (navegación interna o invocar servicios, sin que otra app intercepte.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 625.09 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 622.01 Tm (Transporta datos con ) Tj ET
+BT /F2 11 Tf 1 0 0 1 193.85 622.01 Tm (extras / Bundle) Tj ET
+BT /F1 11 Tf 1 0 0 1 272.71 622.01 Tm ( vía ) Tj ET
+0.93 0.93 0.94 rg 292.00 619.51 69.00 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 293.50 622.01 Tm (putExtra\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 359.50 622.01 Tm ( \(+ extensiones Kotlin\): primitivos,) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 606.39 Tm (strings, serializables.) Tj ET
+0.94 0.96 0.99 rg 54.00 576.95 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 581.47 Tm (// Origen \(MainActivity.kt\)) Tj ET
+0.94 0.96 0.99 rg 54.00 565.05 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 569.57 Tm (val intentExplicito = Intent\(this, UsuarioActivity::class.java\).apply {) Tj ET
+0.94 0.96 0.99 rg 54.00 553.15 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 557.67 Tm (    putExtra\("EXTRA_USUARIO_ID", 777\)) Tj ET
+0.94 0.96 0.99 rg 54.00 541.25 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 545.77 Tm (    putExtra\("EXTRA_NOMBRE", "Alejandro Monfort"\)) Tj ET
+0.94 0.96 0.99 rg 54.00 529.35 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 533.87 Tm (}) Tj ET
+0.94 0.96 0.99 rg 54.00 517.45 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 521.97 Tm (startActivity\(intentExplicito\)) Tj ET
+0.94 0.96 0.99 rg 54.00 505.55 487.27 11.90 re f 0 0 0 rg
+0.94 0.96 0.99 rg 54.00 493.65 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 498.17 Tm (// Destino \(UsuarioActivity.kt\)) Tj ET
+0.94 0.96 0.99 rg 54.00 481.75 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 486.27 Tm (val idUsuario = intent.getIntExtra\("EXTRA_USUARIO_ID", -1\)) Tj ET
+0.94 0.96 0.99 rg 54.00 469.85 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 474.37 Tm (val nombreUsuario = intent.getStringExtra\("EXTRA_NOMBRE"\)) Tj ET
+0.12 0.28 0.45 rg 54.00 472.85 3.50 116.00 re f 0 0 0 rg
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 446.49 Tm (4.6.2. Intent implícito) Tj ET 0 0 0 rg
+BT /F2 11 Tf 1 0 0 1 78.00 428.81 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 425.73 Tm (No define componente, declara ) Tj ET
+BT /F2 11 Tf 1 0 0 1 242.76 425.73 Tm (acción abstracta) Tj ET
+BT /F1 11 Tf 1 0 0 1 329.58 425.73 Tm ( \(ver web, compartir, llamar, mapa\) +) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 410.11 Tm (datos. Android busca ) Tj ET
+0.93 0.93 0.94 rg 191.74 407.61 102.00 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 193.24 410.11 Tm (<intent-filter>) Tj ET
+BT /F1 11 Tf 1 0 0 1 292.24 410.11 Tm ( en todas las apps instaladas; si hay varias,) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 394.49 Tm (muestra selector.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 377.95 Tm (•) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 374.87 Tm (Reutiliza ecosistema, desacopla responsabilidades. Para obtener resultado de vuelta \(elegir) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 359.25 Tm (archivo, foto\): ) Tj ET
+BT /F2 11 Tf 1 0 0 1 156.55 359.25 Tm (Activity Result API) Tj ET
+BT /F1 11 Tf 1 0 0 1 254.35 359.25 Tm ( con ) Tj ET
+0.93 0.93 0.94 rg 276.69 356.75 181.20 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 278.19 359.25 Tm (registerForActivityResult\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 456.39 359.25 Tm ( \(seguro aunque) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 343.63 Tm (el sistema destruya la actividad en fondo\).) Tj ET
+0.94 0.96 0.99 rg 54.00 314.19 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 318.71 Tm (val sendIntent = Intent\(Intent.ACTION_SEND\).apply {) Tj ET
+0.94 0.96 0.99 rg 54.00 302.29 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 306.81 Tm (    type = "text/plain") Tj ET
+0.94 0.96 0.99 rg 54.00 290.39 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 294.91 Tm (    putExtra\(Intent.EXTRA_TEXT, "Solicitud de texto"\)) Tj ET
+0.94 0.96 0.99 rg 54.00 278.49 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 283.01 Tm (}) Tj ET
+0.94 0.96 0.99 rg 54.00 266.59 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 271.11 Tm (val chooserIntent = Intent.createChooser\(sendIntent, "Compartir mensaje mediante:"\)) Tj ET
+0.94 0.96 0.99 rg 54.00 254.69 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 259.21 Tm (if \(sendIntent.resolveActivity\(packageManager\) != null\) {) Tj ET
+0.94 0.96 0.99 rg 54.00 242.79 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 247.31 Tm (    startActivity\(chooserIntent\)) Tj ET
+0.94 0.96 0.99 rg 54.00 230.89 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 235.41 Tm (}) Tj ET
+0.12 0.28 0.45 rg 54.00 233.89 3.50 92.20 re f 0 0 0 rg
+0.120 0.280 0.450 rg BT /F2 12 Tf 1 0 0 1 54.00 207.53 Tm (4.6.3. Elementos de un Intent) Tj ET 0 0 0 rg
+0.780 0.320 0.080 rg 439.05 203.23 m 535.27 203.23 l 538.58 203.23 541.27 205.92 541.27 209.23 c 541.27 214.23 l 541.27 217.54 538.58 220.23 535.27 220.23 c 439.05 220.23 l 435.74 220.23 433.05 217.54 433.05 214.23 c 433.05 209.23 l 433.05 205.92 435.74 203.23 439.05 203.23 c h f 0 0 0 rg
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 441.05 208.23 Tm (CAE EN PRÁCTICA) Tj ET 0 0 0 rg
+BT /F1 11 Tf 1 0 0 1 54.00 186.77 Tm (Memorizar campos del constructor + ejemplo:) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 168.23 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 165.15 Tm (Nombre del Componente) Tj ET
+BT /F1 11 Tf 1 0 0 1 217.64 165.15 Tm ( \() Tj ET
+0.93 0.93 0.94 rg 222.86 162.65 88.80 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 224.36 165.15 Tm (ComponentName) Tj ET
+BT /F1 11 Tf 1 0 0 1 310.16 165.15 Tm (\): clase + paquete destino exacto. Su) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 149.53 Tm (presencia = explícito, su ausencia = implícito.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 132.99 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 129.91 Tm (Acción) Tj ET
+BT /F1 11 Tf 1 0 0 1 123.52 129.91 Tm (: string abstracto de operación/evento. Constantes: ) Tj ET
+0.93 0.93 0.94 rg 373.94 127.41 75.60 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 375.44 129.91 Tm (ACTION_VIEW) Tj ET
+BT /F1 11 Tf 1 0 0 1 448.03 129.91 Tm (, ) Tj ET
+0.93 0.93 0.94 rg 452.65 127.41 75.60 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 454.15 129.91 Tm (ACTION_SEND) Tj ET
+BT /F1 11 Tf 1 0 0 1 526.75 129.91 Tm (,) Tj ET
+0.93 0.93 0.94 rg 85.35 111.79 75.60 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 86.85 114.29 Tm (ACTION_DIAL) Tj ET
+BT /F1 11 Tf 1 0 0 1 159.45 114.29 Tm (.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 97.75 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 94.67 Tm (Datos y Tipo MIME) Tj ET
+BT /F1 11 Tf 1 0 0 1 184.64 94.67 Tm (: ) Tj ET
+0.93 0.93 0.94 rg 189.26 92.17 29.40 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 190.76 94.67 Tm (data) Tj ET
+BT /F1 11 Tf 1 0 0 1 217.16 94.67 Tm ( = URI \() Tj ET
+0.93 0.93 0.94 rg 253.86 92.17 102.00 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 255.36 94.67 Tm (android.net.Uri) Tj ET
+BT /F1 11 Tf 1 0 0 1 354.36 94.67 Tm (: web, teléfono, geo\) + ) Tj ET
+0.93 0.93 0.94 rg 465.07 92.17 29.40 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 466.57 94.67 Tm (type) Tj ET
+BT /F1 11 Tf 1 0 0 1 492.97 94.67 Tm ( = MIME \() Tj ET
+0.93 0.93 0.94 rg 85.35 76.55 62.40 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 86.85 79.05 Tm (image/png) Tj ET
+BT /F1 11 Tf 1 0 0 1 146.25 79.05 Tm (, ) Tj ET
+0.93 0.93 0.94 rg 150.87 76.55 69.00 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 152.37 79.05 Tm (text/plain) Tj ET
+BT /F1 11 Tf 1 0 0 1 218.37 79.05 Tm (\). Van juntos.) Tj ET
+0.780 0.830 0.890 RG 0.7 w 54.00 40.00 m 541.27 40.00 l S 0 0 0 RG
+0.450 0.500 0.570 rg BT /F1 8 Tf 1 0 0 1 54.00 28.00 Tm (Tema 1 - Tecnologías móviles - filtrado) Tj ET 0 0 0 rg
+0.450 0.500 0.570 rg BT /F1 8 Tf 1 0 0 1 491.90 28.00 Tm (Página 6 de 7) Tj ET 0 0 0 rg
+0.550 0.600 0.660 rg BT /F1 7.5 Tf 1 0 0 1 54.00 803.89 Tm (TEMA 1 - TECNOLOGÍAS MÓVILES \(FILTRADO\)) Tj ET 0 0 0 rg
+0.820 0.860 0.910 RG 0.6 w 54.00 798.39 m 541.27 798.39 l S 0 0 0 RG
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.27 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 21 0 R >>
+endobj
+21 0 obj
+<< /Length 4290 >>
+stream
+BT /F2 11 Tf 1 0 0 1 78.00 785.89 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 782.81 Tm (Categoría) Tj ET
+BT /F1 11 Tf 1 0 0 1 137.58 782.81 Tm (: string complementario que restringe entorno/componente. ) Tj ET
+0.93 0.93 0.94 rg 427.71 780.31 88.80 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 429.21 782.81 Tm (addCategory\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 515.01 782.81 Tm (.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 766.27 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 763.19 Tm (Datos extra) Tj ET
+BT /F1 11 Tf 1 0 0 1 146.76 763.19 Tm (: clave-valor en ) Tj ET
+BT /F2 11 Tf 1 0 0 1 224.39 763.19 Tm (Bundle) Tj ET
+BT /F1 11 Tf 1 0 0 1 261.67 763.19 Tm ( para la lógica del destino. ) Tj ET
+0.93 0.93 0.94 rg 391.02 760.69 69.00 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 392.52 763.19 Tm (putExtra\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 458.52 763.19 Tm ( sobrecargado.) Tj ET
+BT /F2 11 Tf 1 0 0 1 78.00 746.65 Tm (•) Tj ET
+BT /F2 11 Tf 1 0 0 1 86.85 743.57 Tm (Indicadores \(flags\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 184.65 743.57 Tm (: enteros binarios de ) Tj ET
+0.93 0.93 0.94 rg 285.87 741.07 42.60 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 287.37 743.57 Tm (Intent) Tj ET
+BT /F1 11 Tf 1 0 0 1 326.97 743.57 Tm ( que instruyen al SO \(p. ej. gestión de pila) Tj ET
+BT /F1 11 Tf 1 0 0 1 86.85 727.95 Tm (de tareas\). ) Tj ET
+0.93 0.93 0.94 rg 140.99 725.45 75.60 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 142.49 727.95 Tm (flags = ...) Tj ET
+BT /F1 11 Tf 1 0 0 1 215.09 727.95 Tm ( o ) Tj ET
+0.93 0.93 0.94 rg 225.82 725.45 69.00 16.00 re f 0 0 0 rg
+BT /F5 11 Tf 1 0 0 1 227.32 727.95 Tm (addFlags\(\)) Tj ET
+BT /F1 11 Tf 1 0 0 1 293.32 727.95 Tm (.) Tj ET
+0.94 0.96 0.99 rg 54.00 696.51 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 701.03 Tm (// Explícito) Tj ET
+0.94 0.96 0.99 rg 54.00 684.61 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 689.13 Tm (val nombreIntent = Intent\(contextoOrigen, ClaseDestino::class.java\).apply {) Tj ET
+0.94 0.96 0.99 rg 54.00 672.71 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 677.23 Tm (    putExtra\("CLAVE_DATO_1", valorDato1\)) Tj ET
+0.94 0.96 0.99 rg 54.00 660.81 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 665.33 Tm (    putExtra\("CLAVE_DATO_2", valorDato2\)) Tj ET
+0.94 0.96 0.99 rg 54.00 648.91 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 653.43 Tm (    addFlags\(Intent.FLAG_ACTIVIDAD_DESEADA\)) Tj ET
+0.94 0.96 0.99 rg 54.00 637.01 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 641.53 Tm (}) Tj ET
+0.94 0.96 0.99 rg 54.00 625.11 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 629.63 Tm (startActivity\(nombreIntent\)) Tj ET
+0.94 0.96 0.99 rg 54.00 613.21 487.27 11.90 re f 0 0 0 rg
+0.94 0.96 0.99 rg 54.00 601.31 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 605.83 Tm (// Implícito) Tj ET
+0.94 0.96 0.99 rg 54.00 589.41 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 593.93 Tm (val nombreIntent2 = Intent\(Intent.ACTION_NOMBRE_ACCION\).apply {) Tj ET
+0.94 0.96 0.99 rg 54.00 577.51 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 582.03 Tm (    data = Uri.parse\("esquema:recurso"\)) Tj ET
+0.94 0.96 0.99 rg 54.00 565.61 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 570.13 Tm (    type = "tipo/mime") Tj ET
+0.94 0.96 0.99 rg 54.00 553.71 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 558.23 Tm (    putExtra\(Intent.EXTRA_TEXTO_OPCIONAL, valor\)) Tj ET
+0.94 0.96 0.99 rg 54.00 541.81 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 546.33 Tm (    addCategory\(Intent.CATEGORY_NOMBRE_CATEGORIA\)) Tj ET
+0.94 0.96 0.99 rg 54.00 529.91 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 534.43 Tm (}) Tj ET
+0.94 0.96 0.99 rg 54.00 518.01 487.27 11.90 re f 0 0 0 rg
+BT /F5 8.5 Tf 1 0 0 1 60.00 522.53 Tm (startActivity\(nombreIntent2\)) Tj ET
+0.12 0.28 0.45 rg 54.00 521.01 3.50 187.40 re f 0 0 0 rg
+0.780 0.830 0.890 RG 0.7 w 54.00 40.00 m 541.27 40.00 l S 0 0 0 RG
+0.450 0.500 0.570 rg BT /F1 8 Tf 1 0 0 1 54.00 28.00 Tm (Tema 1 - Tecnologías móviles - filtrado) Tj ET 0 0 0 rg
+0.450 0.500 0.570 rg BT /F1 8 Tf 1 0 0 1 491.90 28.00 Tm (Página 7 de 7) Tj ET 0 0 0 rg
+0.550 0.600 0.660 rg BT /F1 7.5 Tf 1 0 0 1 54.00 803.89 Tm (TEMA 1 - TECNOLOGÍAS MÓVILES \(FILTRADO\)) Tj ET 0 0 0 rg
+0.820 0.860 0.910 RG 0.6 w 54.00 798.39 m 541.27 798.39 l S 0 0 0 RG
+endstream
+endobj
+xref
+0 22
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000157 00000 n 
+0000000254 00000 n 
+0000000356 00000 n 
+0000000461 00000 n 
+0000000570 00000 n 
+0000000665 00000 n 
+0000000837 00000 n 
+0000007877 00000 n 
+0000008051 00000 n 
+0000015816 00000 n 
+0000015990 00000 n 
+0000024715 00000 n 
+0000024889 00000 n 
+0000035762 00000 n 
+0000035936 00000 n 
+0000045549 00000 n 
+0000045723 00000 n 
+0000055038 00000 n 
+0000055212 00000 n 
+trailer
+<< /Size 22 /Root 1 0 R >>
+startxref
+59555
+%%EOF
