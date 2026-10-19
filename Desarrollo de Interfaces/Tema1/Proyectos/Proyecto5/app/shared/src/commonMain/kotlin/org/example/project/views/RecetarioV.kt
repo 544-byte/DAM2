@@ -32,21 +32,20 @@ fun RecetarioV(viewModel : RecetarioVM) {
     val (recetas, favoritas) = viewModel.uiState.collectAsState().value
 
     Box(Modifier.fillMaxSize()) {
-        var recetasSeleccionadas by remember { mutableStateOf(recetas) }
+        var favoritas by remember { mutableStateOf(false) }
         Row(
             Modifier.fillMaxWidth().align(Alignment.TopCenter),
             horizontalArrangement = Arrangement.Center
         ) {
             Button(onClick = {
-                if (recetasSeleccionadas == recetas) recetasSeleccionadas = favoritas
-                else recetasSeleccionadas = recetas
+                favoritas = !favoritas
             }) {
                 Text("Show/Hide Favourites")
             }
         }
         FlowRow(Modifier.align(Alignment.Center))
         {
-            for (receta in recetasSeleccionadas){
+            for (receta in recetas.filter{!favoritas || it.favorita}){
                 Column (
                     modifier =
                         Modifier.background(
@@ -58,6 +57,11 @@ fun RecetarioV(viewModel : RecetarioVM) {
                             )
                         ).padding(20.dp)
                 ) {
+                    Button(onClick = {
+                        viewModel.setFav(receta)
+                    }){
+                        Text("Fav")
+                    }
                     Text(receta.nombre)
                 }
             }

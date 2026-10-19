@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.update
 import org.example.project.models.Receta
 import org.example.project.states.Recetario
 
@@ -19,5 +20,14 @@ class RecetarioVM : ViewModel() {
     )))
     val uiState : StateFlow<Recetario> = _uiState.asStateFlow()
 
+    fun setFav(receta : Receta) {
+        _uiState.update { current ->
+            current.copy(recetas = current.recetas.map {
+                if (it == receta)
+                    it.copy(favorita = !it.favorita)
+                else it
+            })
+        }
+    }
 
 }
