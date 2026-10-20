@@ -2,6 +2,7 @@ package PrimerApartado;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -9,6 +10,7 @@ import java.nio.file.attribute.FileTime;
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
+import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
@@ -134,6 +136,29 @@ public class Main {
                 throw new RuntimeException(e);
             }
         }
+    }
+
+    public void ej6(String ruta1, String ruta2, String type){
+        System.out.println("---- COMIENZO EJERCICIO 6 ----");
+        Path dir1 = Paths.get(ruta1);
+        Path dir2 = Paths.get(ruta2);
+        try {
+            for (Path archivo : Files.list(dir1).toList()){
+                if (archivo. toString().endsWith("." + type)){
+                    Files.copy(archivo,dir2.resolve(archivo.getFileName()));
+                }
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        System.out.println("----- FIN DE EJERCICIO 6 -----\n");
+    }
+
+    public void ej7(String ruta){
+        System.out.println("---- COMIENZO EJERCICIO 7 ----");
+        Path dir1 = Paths.get(ruta);
+
+        System.out.println("----- FIN DE EJERCICIO 7 -----\n");
     }
 
 
