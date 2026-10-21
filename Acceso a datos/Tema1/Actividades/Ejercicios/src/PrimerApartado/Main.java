@@ -22,22 +22,26 @@ import java.util.concurrent.TimeUnit;
     }
 */
 public class Main {
-    void main() throws IOException {
+    public static void main() throws IOException {
+        System.out.println("----- COMIENZO PAQUETE 1 -----");
         ej1("Directorio");
         ej2("Directorio");
         ej3();
         ej4("Directorio/Directorio 1.3/Directorio 1.3.1/");
         ej5("Directorio/Directorio 1.2");
+        ej6("Directorio/Directorio 1.1","Directorio/Directorio 1.1 Copia","txt");
+        ej7("Directorio");
+        System.out.println("------ FIN DE PAQUETE 1 ------\n");
     }
 
-    public void ej1(String ruta){
+    public static void ej1(String ruta){
         System.out.println("---- COMIENZO EJERCICIO 1 ----");
         Path dir = Paths.get(ruta);
         listarContenidoRecursivo(dir,0);
         System.out.println("----- FIN DE EJERCICIO 1 -----\n");
     }
 
-    public void listarContenidoRecursivo(Path p,int t){
+    public static void listarContenidoRecursivo(Path p,int t){
         File dir = new File(String.valueOf(p));
         if (dir.isDirectory()) {
             String[] archivos = dir.list();
@@ -53,7 +57,7 @@ public class Main {
         }
     }
 
-    public void ej2(String ruta) {
+    public static void ej2(String ruta) {
         System.out.println("---- COMIENZO EJERCICIO 2 ----");
         File dir = new File(ruta);
         if (dir.isDirectory()) {
@@ -71,7 +75,7 @@ public class Main {
         System.out.println("----- FIN DE EJERCICIO 2 -----\n");
     }
 
-    public void ej3(){
+    public static void ej3(){
         System.out.println("---- COMIENZO EJERCICIO 3 ----");
         System.out.printf("Introduce la ruta: ");
         String ruta = new Scanner(System.in).nextLine();
@@ -91,7 +95,7 @@ public class Main {
         System.out.println("----- FIN DE EJERCICIO 3 -----\n");
     }
 
-    public void ej4(String ruta){
+    public static void ej4(String ruta){
         System.out.println("---- COMIENZO EJERCICIO 4 ----");
         Path dir = Paths.get(ruta);
         try {
@@ -102,7 +106,7 @@ public class Main {
         System.out.println("----- FIN DE EJERCICIO 4 -----\n");
     }
 
-    public void ej5(String ruta){
+    public static void ej5(String ruta){
         System.out.println("---- COMIENZO EJERCICIO 5 ----");
         try {
             Path archivoAntiguo = Path.of("Directorio/Directorio 1.2/Directorio 1.2.1/Archivo Antigüo");
@@ -117,7 +121,7 @@ public class Main {
         System.out.println("----- FIN DE EJERCICIO 5 -----\n");
     }
 
-    public void eliminarContenidoRecursivo(Path p){
+    public static void eliminarContenidoRecursivo(Path p){
         File dir = new File(String.valueOf(p));
         if (dir.isDirectory()) {
             String[] archivos = dir.list();
@@ -138,7 +142,7 @@ public class Main {
         }
     }
 
-    public void ej6(String ruta1, String ruta2, String type){
+    public static void ej6(String ruta1, String ruta2, String type){
         System.out.println("---- COMIENZO EJERCICIO 6 ----");
         Path dir1 = Paths.get(ruta1);
         Path dir2 = Paths.get(ruta2);
@@ -154,13 +158,18 @@ public class Main {
         System.out.println("----- FIN DE EJERCICIO 6 -----\n");
     }
 
-    public void ej7(String ruta){
+    public static void ej7(String ruta){
         System.out.println("---- COMIENZO EJERCICIO 7 ----");
         Path dir1 = Paths.get(ruta);
-
+        try {
+            for (Path archivo : Files.list(dir1).toList()){
+                if (!Files.isDirectory(archivo)){
+                    System.out.println(archivo.getFileName() + " · " + Files.size(archivo)/2048 + "MB");
+                }
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         System.out.println("----- FIN DE EJERCICIO 7 -----\n");
     }
-
-
-
 }

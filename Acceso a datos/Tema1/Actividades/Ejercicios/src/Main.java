@@ -1,5 +1,4 @@
-void main() {
 
-
-
+void main() throws IOException {
+    PrimerApartado.Main.main();
 }
