@@ -18,6 +18,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.safeDrawingPadding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentHeight
@@ -44,7 +45,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             PracticaTema2Theme {
                 Column(
-                    modifier = Modifier.fillMaxSize(),
+                    modifier = Modifier.fillMaxSize().safeDrawingPadding(),
                     horizontalAlignment = Alignment.CenterHorizontally
                 ){
                     Row(modifier = Modifier
@@ -71,8 +72,11 @@ class MainActivity : ComponentActivity() {
                             Arrangement.SpaceBetween,
                             Alignment.CenterVertically
                         ) {
-                            Box(Modifier.size(160.dp).background(Color.Red),
-                            ){}
+                            Image(
+                                painterResource(R.drawable.ic_launcher),
+                                "",
+                                Modifier.size(160.dp)
+                            )
                             Column(){
                                 Text("¡Bienvenido!",
                                     modifier = Modifier
@@ -124,7 +128,7 @@ class MainActivity : ComponentActivity() {
                                     modifier = Modifier
                                         .height(50.dp)
                                         .wrapContentHeight(Alignment.CenterVertically)
-                                        ,
+                                    ,
                                     textAlign = TextAlign.Center
                                 )
                             }
@@ -135,7 +139,7 @@ class MainActivity : ComponentActivity() {
                                     modifier = Modifier
                                         .height(50.dp)
                                         .wrapContentHeight(Alignment.CenterVertically)
-                                        ,
+                                    ,
                                     textAlign = TextAlign.Center
                                 )
                             }
