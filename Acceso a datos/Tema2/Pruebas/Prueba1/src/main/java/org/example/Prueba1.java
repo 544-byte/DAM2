@@ -1,10 +1,9 @@
 package org.example;
 
 import java.io.*;
-import java.nio.file.Path;
 import java.sql.*;
 
-public class Main {
+public class Prueba1 {
     static void main() {
         try {
             Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/prueba01_mysql","root","123456");

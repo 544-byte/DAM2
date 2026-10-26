@@ -1,9 +1,6 @@
 package SegundoApartado;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -32,7 +29,12 @@ public class Main {
     public void ej2(String ruta){
         System.out.println("---- COMIENZO EJERCICIO 2 ----");
         Path dir = Paths.get(ruta);
-
+        try (RandomAccessFile raf = new RandomAccessFile(dir.toFile(),"rw")) {
+            raf.writeInt(1);
+            raf.writeInt(15);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
         System.out.println("----- FIN DE EJERCICIO 2 -----\n");
     }
 
