@@ -60,6 +60,7 @@ public class Prueba2 {
             PreparedStatement consultarDinero = conexion.prepareStatement("select saldo from banco where id = ?");
             consultarDinero.setInt(1,1);
             ResultSet saldoTotal = consultarDinero.executeQuery();
+            saldoTotal.next();
             if ((saldoTotal.getInt(1) - saldo) < 0){
                 System.out.println("no hay lana");
             }

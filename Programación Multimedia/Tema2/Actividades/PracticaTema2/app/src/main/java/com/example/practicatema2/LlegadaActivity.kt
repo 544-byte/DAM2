@@ -108,7 +108,7 @@ class MainActivity : ComponentActivity() {
                                 .background(Color.Green).wrapContentHeight(Alignment.CenterVertically),
                             textAlign = TextAlign.Center
                         )
-                        Spacer(modifier = Modifier.weight(1f))
+                        Spacer(Modifier.weight(1f))
                         Button(onClick = {}) {
                             Text(
                                 "Añadir tareas",

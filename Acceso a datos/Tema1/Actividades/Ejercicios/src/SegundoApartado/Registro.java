@@ -1,6 +1,6 @@
 package SegundoApartado;
 
-public record Registro(
+public record Registro (
         int id,
         int numero
 ){
