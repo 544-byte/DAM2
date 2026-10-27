@@ -45,7 +45,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             PracticaTema2Theme {
                 Column(
-                    modifier = Modifier.fillMaxSize().safeDrawingPadding(),
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .safeDrawingPadding(),
                     horizontalAlignment = Alignment.CenterHorizontally
                 ){
                     Row(modifier = Modifier
@@ -56,14 +58,16 @@ class MainActivity : ComponentActivity() {
                     Spacer(Modifier.padding(15.dp))
                     Column(Modifier
                         .fillMaxSize()
-                        .padding(30.dp,0.dp),
+                        .padding(30.dp, 0.dp),
                         horizontalAlignment = Alignment.CenterHorizontally
                     ){
                         Text(
                             "${LocalDate.now().dayOfMonth}, ${LocalDate.now().monthValue} de ${LocalDate.now().year}",
                             modifier = Modifier
-                                .fillMaxWidth().height(50.dp)
-                                .background(Color.Green).wrapContentHeight(Alignment.CenterVertically),
+                                .fillMaxWidth()
+                                .height(50.dp)
+                                .background(Color.Green)
+                                .wrapContentHeight(Alignment.CenterVertically),
                             textAlign = TextAlign.Center
                         )
                         Spacer(Modifier.padding(15.dp))
@@ -80,40 +84,116 @@ class MainActivity : ComponentActivity() {
                             Column(){
                                 Text("¡Bienvenido!",
                                     modifier = Modifier
-                                        .height(40.dp).width(175.dp)
-                                        .background(Color.Green).wrapContentHeight(Alignment.CenterVertically),
+                                        .height(40.dp)
+                                        .width(175.dp)
+                                        .background(Color.Green)
+                                        .wrapContentHeight(Alignment.CenterVertically),
                                     textAlign = TextAlign.Center
                                 )
                                 Spacer(Modifier.padding(5.dp))
                                 Text("nombre de usuario",
                                     modifier = Modifier
-                                        .height(40.dp).width(175.dp)
-                                        .background(Color.Green).wrapContentHeight(Alignment.CenterVertically),
+                                        .height(40.dp)
+                                        .width(175.dp)
+                                        .background(Color.Green)
+                                        .wrapContentHeight(Alignment.CenterVertically),
                                     textAlign = TextAlign.Center
                                 )
                                 Spacer(Modifier.padding(5.dp))
                                 Text("rol de usuario",
                                     modifier = Modifier
-                                        .height(40.dp).width(175.dp)
-                                        .background(Color.Green).wrapContentHeight(Alignment.CenterVertically),
+                                        .height(40.dp)
+                                        .width(175.dp)
+                                        .background(Color.Green)
+                                        .wrapContentHeight(Alignment.CenterVertically),
                                     textAlign = TextAlign.Center
                                 )
                             }
                         }
                         Spacer(Modifier.padding(15.dp))
-                        Text(
-                            "Tareas Pendientes",
-                            modifier = Modifier
-                                .fillMaxWidth().height(50.dp)
-                                .background(Color.Green).wrapContentHeight(Alignment.CenterVertically),
-                            textAlign = TextAlign.Center
-                        )
+                        Column(verticalArrangement = Arrangement.spacedBy(25.dp)) {
+                            Text(
+                                "Tareas Pendientes",
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .height(50.dp)
+                                    .background(Color.Green)
+                                    .wrapContentHeight(Alignment.CenterVertically),
+                                textAlign = TextAlign.Center
+                            )
+                            Row() {
+                                Text(
+                                    "Tarea 1",
+                                    modifier = Modifier
+                                        .weight(0.5f)
+                                        .height(50.dp)
+                                        .background(Color.Green)
+                                        .wrapContentHeight(Alignment.CenterVertically),
+                                    textAlign = TextAlign.Center
+                                )
+                                Spacer(Modifier.weight(0.25f))
+                                Text(
+                                    "Fecha límite",
+                                    modifier = Modifier
+                                        .weight(0.25f)
+                                        .height(50.dp)
+                                        .background(Color.Green)
+                                        .wrapContentHeight(Alignment.CenterVertically),
+                                    textAlign = TextAlign.Center
+                                )
+                            }
+                            Row() {
+                                Text(
+                                    "Tarea 2",
+                                    modifier = Modifier
+                                        .weight(0.5f)
+                                        .height(50.dp)
+                                        .background(Color.Green)
+                                        .wrapContentHeight(Alignment.CenterVertically),
+                                    textAlign = TextAlign.Center
+                                )
+                                Spacer(Modifier.weight(0.25f))
+                                Text(
+                                    "Fecha límite",
+                                    modifier = Modifier
+                                        .weight(0.25f)
+                                        .height(50.dp)
+                                        .background(Color.Green)
+                                        .wrapContentHeight(Alignment.CenterVertically),
+                                    textAlign = TextAlign.Center
+                                )
+                            }
+                            Row() {
+                                Text(
+                                    "Tarea 3",
+                                    modifier = Modifier
+                                        .weight(0.5f)
+                                        .height(50.dp)
+                                        .background(Color.Green)
+                                        .wrapContentHeight(Alignment.CenterVertically),
+                                    textAlign = TextAlign.Center
+                                )
+                                Spacer(Modifier.weight(0.25f))
+                                Text(
+                                    "Fecha límite",
+                                    modifier = Modifier
+                                        .weight(0.25f)
+                                        .height(50.dp)
+                                        .background(Color.Green)
+                                        .wrapContentHeight(Alignment.CenterVertically),
+                                    textAlign = TextAlign.Center
+                                )
+                            }
+
+                        }
+                        
                         Spacer(Modifier.weight(1f))
                         Button(onClick = {}) {
                             Text(
                                 "Añadir tareas",
                                 modifier = Modifier
-                                    .fillMaxWidth().height(50.dp)
+                                    .fillMaxWidth()
+                                    .height(50.dp)
                                     .wrapContentHeight(Alignment.CenterVertically),
                                 textAlign = TextAlign.Center
                             )
