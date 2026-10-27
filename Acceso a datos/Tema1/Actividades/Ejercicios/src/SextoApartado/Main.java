@@ -51,8 +51,20 @@ public class Main {
 
     public static void ej3(String ruta){
         System.out.println("---- COMIENZO EJERCICIO 3 ----");
-        Path dir = Paths.get(ruta);
-
+        File dir = new File(ruta);
+        try (BufferedReader br = new BufferedReader(new FileReader(dir))){
+            int[] enteros = new int[10];
+            int i = 0;
+            String linea = "";
+            while ((linea = br.readLine()) != null){
+                enteros[i] = Integer.parseInt(linea);
+                i++;
+            }
+        } catch (NumberFormatException e) {
+            System.out.println("\u001B[31m"+e+"\u001B[0m");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         System.out.println("----- FIN DE EJERCICIO 3 -----\n");
     }
 
