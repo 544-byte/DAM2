@@ -3,6 +3,7 @@ package PrimerApartado;
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -31,7 +32,7 @@ public class Main {
         ej5("Directorio/Directorio 1.2");
         ej6("Directorio/Directorio 1.1","Directorio/Directorio 1.1 Copia","txt");
         ej7("Directorio");
-        System.out.println("------ FIN DE PAQUETE 1 ------\n");
+        System.out.println("------ FIN DE PAQUETE 1 ------\n\n\n");
     }
 
     public static void ej1(String ruta){
@@ -144,12 +145,14 @@ public class Main {
 
     public static void ej6(String ruta1, String ruta2, String type){
         System.out.println("---- COMIENZO EJERCICIO 6 ----");
+        Util.RestaurarArchivos.restaurarBackup();
         Path dir1 = Paths.get(ruta1);
         Path dir2 = Paths.get(ruta2);
         try {
             for (Path archivo : Files.list(dir1).toList()){
                 if (archivo. toString().endsWith("." + type)){
                     Files.copy(archivo,dir2.resolve(archivo.getFileName()));
+                    System.out.println("Copiado el archivo " + archivo.getFileName() + " en " + dir2);
                 }
             }
         } catch (IOException e) {

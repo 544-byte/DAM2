@@ -17,7 +17,7 @@ public class Main {
         ej2("Directorio/Apartado3/personas.csv");
         ej3("Directorio/Apartado3/personas.dat");
         ej4("Directorio/Apartado3/personas.dat");
-        System.out.println("------ FIN DE PAQUETE 3 ------\n");
+        System.out.println("------ FIN DE PAQUETE 3 ------\n\n\n");
 
     }
 
@@ -44,6 +44,8 @@ public class Main {
                 String[] registro = linea.split(",");
                 personas.add(new Persona(registro[0],Integer.parseInt(registro[1]),registro[2]));
             }
+            System.out.println("Personas: ");
+            System.out.println(personas.toString());
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

@@ -38,7 +38,7 @@ public class Main {
         );
         ej3("Directorio/Apartado4/Alumnos.dat",alumnoList);
         ej4("Directorio/Apartado4/CompressedProductos.dat",productList);
-        System.out.println("------ FIN DE PAQUETE 4 ------\n");
+        System.out.println("------ FIN DE PAQUETE 4 ------\n\n\n");
     }
 
     public static void ej1(String ruta, List<Producto> productList){

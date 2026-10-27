@@ -12,7 +12,7 @@ public class Main {
         ej1("Directorio/Directorio 1.1/Archivo 1.1.1.txt","java");
         ej2("Directorio/Apartado2/Registro.dat");
         ej3("Directorio/Apartado2/Registro.dat",1,67);
-        System.out.println("------- FIN PAQUETE 2 -------");
+        System.out.println("------- FIN PAQUETE 2 -------\n\n\n");
     }
 
     public static void ej1(String ruta, String clave){
@@ -42,6 +42,7 @@ public class Main {
                 new Registro(5,6)
         );
         writeRecords(rList,dir);
+
         System.out.println("----- FIN DE EJERCICIO 2 -----\n");
     }
 
@@ -50,7 +51,10 @@ public class Main {
             for (Registro r : rList) {
                 raf.writeInt(r.id());
                 raf.writeInt(r.numero());
+                System.out.println("se ha escrito el registro " + r.toString());
             }
+            System.out.println("fichero completo:");
+            leerFichero(dir);
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
@@ -69,12 +73,26 @@ public class Main {
         }
     }
 
+    private static void leerFichero(Path dir){
+        try(RandomAccessFile raf = new RandomAccessFile(dir.toFile(),"r")) {
+            while (true){
+                System.out.println(raf.readInt());
+            }
+        } catch (EOFException e) {
+        }
+        catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     public static void ej3(String ruta,int id, int num){
         System.out.println("---- COMIENZO EJERCICIO 3 ----");
         Path dir = Paths.get(ruta);
         try (RandomAccessFile raf = new RandomAccessFile(dir.toFile(),"rw")) {
             raf.skipBytes((id*8)-4);
             raf.writeInt(num);
+            System.out.println("Se ha modificado el registro " + id + " cambiando su numero a " + num);
+            leerFichero(ruta);
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
