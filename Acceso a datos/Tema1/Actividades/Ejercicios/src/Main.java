@@ -4,4 +4,5 @@ void main() throws IOException {
     SegundoApartado.Main.main();
     TercerApartado.Main.main();
     CuartoApartado.Main.main();
+    Util.RestaurarArchivos.restaurarBackup();
 }
