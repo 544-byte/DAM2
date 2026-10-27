@@ -109,11 +109,7 @@ public class Main {
                 System.out.println(alumno.toString());
             }
         } catch (EOFException e){
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        } catch (ClassNotFoundException e) {
+        } catch (ClassNotFoundException | IOException e) {
             throw new RuntimeException(e);
         }
         System.out.println("----- FIN DE EJERCICIO 3 -----\n");
