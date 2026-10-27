@@ -1,14 +1,16 @@
 package CuartoApartado;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.attribute.FileTime;
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
+import java.util.List;
 import java.util.Scanner;
+import java.util.zip.GZIPInputStream;
+import java.util.zip.GZIPOutputStream;
 
 /*
     public void ejx(String ruta){
@@ -20,152 +22,154 @@ import java.util.Scanner;
 public class Main {
     public static void main() throws IOException {
         System.out.println("----- COMIENZO PAQUETE 4 -----");
-        ej1("Directorio");
-        ej2("Directorio");
-        ej3();
-        ej4("Directorio/Directorio 1.3/Directorio 1.3.1/");
-        ej5("Directorio/Directorio 1.2");
-        ej6("Directorio/Directorio 1.1","Directorio/Directorio 1.1 Copia","txt");
-        ej7("Directorio");
+        List<Producto> productList = List.of(
+                new Producto(1,"product1",4.99),
+                new Producto(2,"product2",9.99),
+                new Producto(3,"product3",14.99),
+                new Producto(4,"product4",99.99)
+        );
+        ej1("Directorio/Apartado4/Productos.csv",productList);
+        ej2("Directorio/Apartado4/Productos.dat",productList);
+        List<Alumno> alumnoList = List.of(
+                new Alumno("Marco","Aurelio","1º Bachiller"),
+                new Alumno("Antonio","Pérez","2º año de Medicina"),
+                new Alumno("María","de la O","FPM de Cocina"),
+                new Alumno("Juana","de Arco","Curso de tiro con Arco")
+        );
+        ej3("Directorio/Apartado4/Alumnos.dat",alumnoList);
+        ej4("Directorio/Apartado4/CompressedProductos.dat",productList);
         System.out.println("------ FIN DE PAQUETE 4 ------\n");
     }
 
-    public static void ej1(String ruta){
+    public static void ej1(String ruta, List<Producto> productList){
         System.out.println("---- COMIENZO EJERCICIO 1 ----");
         Path dir = Paths.get(ruta);
-        listarContenidoRecursivo(dir,0);
+        try(BufferedWriter bw = new BufferedWriter(new FileWriter(dir.toFile()))) {
+            for (Producto p : productList) {
+                bw.write(p.toString());
+                bw.newLine();
+                System.out.println("Escrito nueva linea en " + dir.getFileName() +": " + p.toString());
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         System.out.println("----- FIN DE EJERCICIO 1 -----\n");
     }
 
-    public static void listarContenidoRecursivo(Path p,int t){
-        File dir = new File(String.valueOf(p));
-        if (dir.isDirectory()) {
-            String[] archivos = dir.list();
-            for (String archivo : archivos) {
-                Path newP = Paths.get(p.toString() + "/" + archivo);
-                String tabulacion = "";
-                for (int i = 0; i < t ; i++){
-                    tabulacion = tabulacion.concat("\t");
-                }
-                System.out.println(tabulacion + archivo);
-                listarContenidoRecursivo(newP,t+1);
-            }
-        }
-    }
-
-    public static void ej2(String ruta) {
+    public static void ej2(String ruta, List<Producto> productList) {
         System.out.println("---- COMIENZO EJERCICIO 2 ----");
-        File dir = new File(ruta);
-        if (dir.isDirectory()) {
-            String[] archivos = dir.list();
-            try {
-                for (String archivo: archivos) {
-                    if (archivo.endsWith(".txt")) {
-                        System.out.println(archivo + " - " + Files.getLastModifiedTime((new File(ruta + "/" + archivo)).toPath()));
-                    }
-                }
-            } catch (IOException e) {
-                throw new RuntimeException(e);
+        Path dir = Paths.get(ruta);
+        try(DataOutputStream dos = new DataOutputStream(Files.newOutputStream(dir))
+        ) {
+            for (Producto p : productList) {
+                dos.writeInt(p.getId());
+                dos.writeInt(p.getName().length());
+                dos.writeChars(p.getName());
+                dos.writeDouble(p.getPrice());
             }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+        try(DataInputStream dis = new DataInputStream(Files.newInputStream(dir))
+        ) {
+            System.out.println("Leyendo con data input stream los datos escritos: ");
+            while (true) {
+                int id = dis.readInt();
+                int chars = dis.readInt();
+                String nombre = "";
+                int i;
+                for (i = 0; i < chars; i++) {
+                    nombre = nombre.concat(String.valueOf(dis.readChar()));
+                }
+                double price = dis.readDouble();
+                System.out.println(id + "," + nombre + "," + price);
+            }
+        } catch (EOFException e){
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
         System.out.println("----- FIN DE EJERCICIO 2 -----\n");
     }
 
-    public static void ej3(){
+    public static void ej3(String ruta, List<Alumno> alumnoList){
         System.out.println("---- COMIENZO EJERCICIO 3 ----");
-        System.out.printf("Introduce la ruta: ");
-        String ruta = new Scanner(System.in).nextLine();
         Path dir = Paths.get(ruta);
-        if (!Files.exists(dir)){
-            System.out.println("El archivo no existe");
-        } else {
-            String tipo ="";
-            if (Files.isDirectory(dir)) {
-                tipo = "directorio";
+        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(dir.toFile()))) {
+            for (Alumno a : alumnoList){
+                oos.writeObject(a);
             }
-            else {
-                tipo = "archivo";
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(dir.toFile()))) {
+            System.out.println("Leyendo los Alumnos escritos:");
+            while (true){
+                Alumno alumno = (Alumno) ois.readObject();
+                System.out.println(alumno.toString());
             }
-            System.out.println("El archivo es un " + tipo);
+        } catch (EOFException e){
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
         }
         System.out.println("----- FIN DE EJERCICIO 3 -----\n");
     }
 
-    public static void ej4(String ruta){
+    public static void ej4(String ruta, List<Producto> productList){
         System.out.println("---- COMIENZO EJERCICIO 4 ----");
         Path dir = Paths.get(ruta);
-        try {
-            System.out.println(Files.createDirectories(dir));
+        try(DataOutputStream dos = new DataOutputStream(new GZIPOutputStream(Files.newOutputStream(dir)))
+        ) {
+            for (Producto p : productList) {
+                dos.writeInt(p.getId());
+                dos.writeInt(p.getName().length());
+                dos.writeChars(p.getName());
+                dos.writeDouble(p.getPrice());
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        try(DataInputStream dis = new DataInputStream(Files.newInputStream(dir))
+        ) {
+            System.out.println("Leyendo con data input stream los datos escritos: ");
+            while (true) {
+                int id = dis.readInt();
+                int chars = dis.readInt();
+                String nombre = "";
+                int i;
+                for (i = 0; i < chars; i++) {
+                    nombre = nombre.concat(String.valueOf(dis.readChar()));
+                }
+                double price = dis.readDouble();
+                System.out.println(id + "," + nombre + "," + price);
+            }
+        } catch (EOFException e){
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        try(DataInputStream dis = new DataInputStream(new GZIPInputStream(Files.newInputStream(dir)))
+        ) {
+            System.out.println("\nLeyendo con GZIP input stream los datos escritos con GZIP: ");
+            while (true) {
+                int id = dis.readInt();
+                int chars = dis.readInt();
+                String nombre = "";
+                int i;
+                for (i = 0; i < chars; i++) {
+                    nombre = nombre.concat(String.valueOf(dis.readChar()));
+                }
+                double price = dis.readDouble();
+                System.out.println(id + "," + nombre + "," + price);
+            }
+        } catch (EOFException e){
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
         System.out.println("----- FIN DE EJERCICIO 4 -----\n");
     }
 
-    public static void ej5(String ruta){
-        System.out.println("---- COMIENZO EJERCICIO 5 ----");
-        try {
-            Path archivoAntiguo = Path.of("Directorio/Directorio 1.2/Directorio 1.2.1/Archivo Antigüo");
-            Files.createFile(archivoAntiguo);
-            Files.setLastModifiedTime(archivoAntiguo, FileTime.from(Instant.now().minus(999,ChronoUnit.DAYS)));
-            System.out.println("Archivo antiguo creado");
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        Path dir = Paths.get(ruta);
-        eliminarContenidoRecursivo(dir);
-        System.out.println("----- FIN DE EJERCICIO 5 -----\n");
-    }
-
-    public static void eliminarContenidoRecursivo(Path p){
-        File dir = new File(String.valueOf(p));
-        if (dir.isDirectory()) {
-            String[] archivos = dir.list();
-            for (String archivo : archivos) {
-                Path newP = Paths.get(p.toString() + "/" + archivo);
-                System.out.println("Comprobando "+ archivo);
-                eliminarContenidoRecursivo(newP);
-            }
-        } else if (dir.isFile()){
-            try {
-                if (Files.getLastModifiedTime(p).toInstant().isBefore(Instant.now().minus(7, ChronoUnit.DAYS))) {
-                    dir.delete();
-                    System.out.println("Se ha eliminado el archivo " + dir.getAbsolutePath());
-                }
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-        }
-    }
-
-    public static void ej6(String ruta1, String ruta2, String type){
-        System.out.println("---- COMIENZO EJERCICIO 6 ----");
-        Path dir1 = Paths.get(ruta1);
-        Path dir2 = Paths.get(ruta2);
-        try {
-            for (Path archivo : Files.list(dir1).toList()){
-                if (archivo. toString().endsWith("." + type)){
-                    Files.copy(archivo,dir2.resolve(archivo.getFileName()));
-                }
-            }
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        System.out.println("----- FIN DE EJERCICIO 6 -----\n");
-    }
-
-    public static void ej7(String ruta){
-        System.out.println("---- COMIENZO EJERCICIO 7 ----");
-        Path dir1 = Paths.get(ruta);
-        try {
-            for (Path archivo : Files.list(dir1).toList()){
-                if (!Files.isDirectory(archivo)){
-                    System.out.println(archivo.getFileName() + " · " + Files.size(archivo)/2048 + "MB");
-                }
-            }
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        System.out.println("----- FIN DE EJERCICIO 7 -----\n");
-    }
 }
