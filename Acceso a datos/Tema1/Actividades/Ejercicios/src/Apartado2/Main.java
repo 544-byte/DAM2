@@ -1,4 +1,4 @@
-package SegundoApartado;
+package Apartado2;
 
 import java.io.*;
 import java.nio.file.Files;

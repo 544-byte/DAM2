@@ -1,4 +1,4 @@
-package SegundoApartado;
+package Apartado2;
 
 public record Registro (
         int id,

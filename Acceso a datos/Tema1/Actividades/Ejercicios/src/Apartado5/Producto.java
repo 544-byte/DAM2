@@ -1,8 +1,8 @@
-package CuartoApartado;
+package Apartado5;
 
 import java.io.Serializable;
 
-public class Producto {
+public class Producto implements Serializable {
     private int id;
     private String name;
     private double price;

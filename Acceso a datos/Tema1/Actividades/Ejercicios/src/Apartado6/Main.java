@@ -1,13 +1,9 @@
-package SextoApartado;
-
-import QuintoApartado.Producto;
+package Apartado6;
 
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
 
 /*
     public void ejx(String ruta){

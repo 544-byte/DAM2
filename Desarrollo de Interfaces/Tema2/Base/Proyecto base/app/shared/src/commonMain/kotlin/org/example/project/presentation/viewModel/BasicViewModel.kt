@@ -41,13 +41,14 @@ class BasicViewModel(
 
     fun selectItem(item: BasicState) {
         _uiState.update { currentState ->
-            currentState.copy(selectedItem = item)
-        }
-    }
-
-    fun clearSelection() {
-        _uiState.update { currentState ->
-            currentState.copy(selectedItem = null)
+            val items = currentState.items.map {
+                if (it.title == item.title) {
+                    it.copy(isSelected = !it.isSelected)
+                } else {
+                    it
+                }
+            }
+            currentState.copy(items = items)
         }
     }
 }

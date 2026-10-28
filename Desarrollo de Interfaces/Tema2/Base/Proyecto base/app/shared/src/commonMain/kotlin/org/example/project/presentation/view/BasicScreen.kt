@@ -23,7 +23,7 @@ import org.example.project.viewModels.BasicViewModel
 
 @Composable
 fun BaseScreen(viewModel: BasicViewModel) {
-    val (items, selectedItem) = viewModel.uiState.collectAsState().value
+    val (items) = viewModel.uiState.collectAsState().value
 
     Column(
         modifier = Modifier
@@ -36,23 +36,6 @@ fun BaseScreen(viewModel: BasicViewModel) {
         )
 
         Spacer(modifier = Modifier.height(16.dp))
-
-        selectedItem?.let { item ->
-            Card(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(bottom = 16.dp)
-            ) {
-                Column(modifier = Modifier.padding(16.dp)) {
-                    Text(text = "Seleccionado: ${item.title}", style = MaterialTheme.typography.titleMedium)
-                    Text(text = item.description, style = MaterialTheme.typography.bodyMedium)
-                    Spacer(modifier = Modifier.height(8.dp))
-                    Button(onClick = { viewModel.clearSelection() }) {
-                        Text("Deseleccionar")
-                    }
-                }
-            }
-        }
 
         LazyColumn(modifier = Modifier.fillMaxWidth()) {
             items(items) { item ->
@@ -71,6 +54,7 @@ fun ItemRow(item: BasicState, onClick: () -> Unit) {
             .clickable { onClick() }
     ) {
         Column(modifier = Modifier.padding(12.dp)) {
+            Text(item.isSelected.toString())
             Text(text = item.title, style = MaterialTheme.typography.titleSmall)
             Text(text = item.description, style = MaterialTheme.typography.bodySmall)
         }
