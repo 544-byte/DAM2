@@ -10,12 +10,28 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
+/**
+ * Apartado 7: ejercicio de aplicación orientada a usuario. Implementa un
+ * pequeño gestor de ficheros por consola que permite seleccionar un archivo
+ * (o directorio), leer su contenido, escribir en él o crearlo si no existe.
+ */
 public class Main {
+    /** Ruta del fichero o directorio seleccionado por el usuario en la interfaz. */
     private static Path dir;
+
+    /** Punto de entrada del apartado 7: lanza la interfaz de usuario. */
     public static void main() {
-        interfaz();
+        while (true) {
+            interfaz();
+        }
     }
 
+
+    /**
+     * Pide por teclado una ruta y comprueba si existe. Si existe pasa a la
+     * pantalla de lectura/escritura; si no, ofrece crear el archivo o directorio.
+     */
     private static void interfaz(){
 
         Scanner scan = new Scanner(System.in);
@@ -34,6 +50,7 @@ public class Main {
 
     }
 
+    /** Muestra por pantalla el contenido del fichero, o lista el directorio recursivamente si la ruta es un directorio. */
     private static void leer(){
         if (dir.toFile().isFile()){
             try(BufferedReader br = Files.newBufferedReader(dir)) {
@@ -51,6 +68,13 @@ public class Main {
         }
     }
 
+    /**
+     * Lista de forma recursiva el contenido de una ruta con sangría
+     * según la profundidad.
+     *
+     * @param p ruta actual (directorio) que se está recorriendo
+     * @param t nivel de profundidad actual; se usa para tabular la salida
+     */
     private static void listarContenidoRecursivo(Path p,int t){
         File dir = new File(String.valueOf(p));
         if (dir.isDirectory()) {
@@ -67,6 +91,11 @@ public class Main {
         }
     }
 
+    /**
+     * Permite escribir líneas en el fichero seleccionado (se termina con
+     * {@code /salir}) y las guarda todas al final. Si la ruta es un directorio,
+     * ofrece crear un nuevo fichero dentro de él para escribir.
+     */
     private static void escribir(){
         if (dir.toFile().isFile()){
             System.out.println("Para escribir simplemente escribe una línea y presiona enter.");
@@ -127,6 +156,7 @@ public class Main {
         }
     }
 
+    /** Menú que pregunta al usuario si desea leer ({@code l}), escribir ({@code e}) o salir ({@code n}). */
     private static void leerOescribir(){
         char opt = ' ';
         Scanner scan = new Scanner(System.in);
@@ -158,6 +188,7 @@ public class Main {
         }
     }
 
+    /** Flujo que se ejecuta cuando la ruta seleccionada no existe: pregunta si crearla como archivo ({@code a}) o directorio ({@code d}). */
     private static void creadorArchivo(){
         char opt = ' ';
         Scanner scan = new Scanner(System.in);

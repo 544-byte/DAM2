@@ -6,7 +6,18 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
+/**
+ * Utilidad que restaura el contenido original del directorio de trabajo a
+ * partir de una copia de seguridad. Es usada por los apartados que modifican
+ * o borran ficheros, para dejar el estado inicial tras cada ejecución.
+ */
 public class RestaurarArchivos { // Esto ni lo mires pq se lo he pedido a la ia
+
+    /**
+     * Restaura el directorio original vaciándolo por completo y copiando en él
+     * todo el contenido del directorio de backup ({@code DirectorioBackup}),
+     * reemplazando los ficheros existentes.
+     */
     public static void restaurarBackup() {
         Path directorio = Paths.get("Directorio");
         Path backup = Paths.get("DirectorioBackup");
@@ -39,6 +50,13 @@ public class RestaurarArchivos { // Esto ni lo mires pq se lo he pedido a la ia
         }
     }
 
+    /**
+     * Borra todo el contenido de un directorio (hijos primero, padres después)
+     * sin eliminar el directorio raíz. Si no existe lo crea.
+     *
+     * @param directorio directorio que se va a vaciar
+     * @throws IOException si falla la creación o el borrado de algún fichero
+     */
     private static void vaciarDirectorio(Path directorio) throws IOException {
         if (!Files.exists(directorio)) {
             Files.createDirectories(directorio);

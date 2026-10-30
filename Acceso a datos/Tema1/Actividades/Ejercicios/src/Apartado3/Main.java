@@ -8,7 +8,12 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Comparator;
 
+/**
+ * Apartado 3: ejercicios de lectura de ficheros CSV y de ficheros de objetos
+ * serializados ({@link ObjectInputStream}).
+ */
 public class Main {
+    /** Punto de entrada del apartado 3. Ejecuta los ejercicios 1 al 4. */
     public static void main(){
         System.out.println("----- COMIENZO PAQUETE 3 -----");
         ej1("Directorio/Apartado3/personas.csv");
@@ -19,6 +24,12 @@ public class Main {
 
     }
 
+    /**
+     * Ejercicio 1: lee un CSV de personas con formato {@code nombre,edad,email}
+     * y muestra sus campos separados por espacios.
+     *
+     * @param ruta ruta del fichero CSV
+     */
     public static void ej1(String ruta){
         System.out.println("---- COMIENZO EJERCICIO 1 ----");
         Path dir = Paths.get(ruta);
@@ -33,6 +44,12 @@ public class Main {
         System.out.println("----- FIN DE EJERCICIO 1 -----\n");
     }
 
+    /**
+     * Ejercicio 2: lee un CSV de personas con formato {@code nombre,edad,email}
+     * y carga cada línea en un objeto {@link Persona}, mostrando la lista completa.
+     *
+     * @param ruta ruta del fichero CSV
+     */
     public static void ej2(String ruta){
         System.out.println("---- COMIENZO EJERCICIO 2 ----");
         ArrayList<Persona> personas = new ArrayList<>();
@@ -51,6 +68,12 @@ public class Main {
         System.out.println("----- FIN DE EJERCICIO 2 -----\n");
     }
 
+    /**
+     * Ejercicio 3: lee objetos {@link Persona} de un fichero serializado
+     * y los muestra por pantalla hasta alcanzar el final del fichero.
+     *
+     * @param ruta ruta del fichero binario de objetos
+     */
     public static void ej3(String ruta){
         System.out.println("---- COMIENZO EJERCICIO 3 ----");
         Path dir = Paths.get(ruta);
@@ -68,6 +91,12 @@ public class Main {
         System.out.println("----- FIN DE EJERCICIO 3 -----\n");
     }
 
+    /**
+     * Ejercicio 4: lee los objetos {@link Persona} de un fichero serializado,
+     * los ordena por edad de forma ascendente y los muestra por pantalla.
+     *
+     * @param ruta ruta del fichero binario de objetos
+     */
     public static void ej4(String ruta){
         System.out.println("---- COMIENZO EJERCICIO 4 ----");
         Path dir = Paths.get(ruta);

@@ -17,7 +17,12 @@ import java.util.Scanner;
         System.out.println("----- FIN DE EJERCICIO x -----\n");
     }
 */
+    /** Cabecera de clase del apartado 1: ejercicios de manejo de ficheros y directorios con {@link java.io.File} y {@link java.nio.file.Files}. */
 public class Main {
+    /** Punto de entrada del apartado 1. Ejecuta los ejercicios 1 al 7 sobre el directorio de trabajo.
+     *
+     * @throws IOException si falla alguna operación de ficheros implicada
+     */
     public static void main() throws IOException {
         System.out.println("----- COMIENZO PAQUETE 1 -----");
         ej1("Directorio");
@@ -30,6 +35,12 @@ public class Main {
         System.out.println("------ FIN DE PAQUETE 1 ------\n\n\n");
     }
 
+    /**
+     * Ejercicio 1: lista recursivamente el contenido de un directorio
+     * con sangría (tabuladores) según la profundidad.
+     *
+     * @param ruta ruta del directorio a listar
+     */
     public static void ej1(String ruta){
         System.out.println("---- COMIENZO EJERCICIO 1 ----");
         Path dir = Paths.get(ruta);
@@ -37,6 +48,12 @@ public class Main {
         System.out.println("----- FIN DE EJERCICIO 1 -----\n");
     }
 
+    /**
+     * Lista de forma recursiva el contenido de una ruta.
+     *
+     * @param p ruta actual (directorio) que se está recorriendo
+     * @param t nivel de profundidad actual; se usa para tabular la salida
+     */
     public static void listarContenidoRecursivo(Path p,int t){
         File dir = new File(String.valueOf(p));
         if (dir.isDirectory()) {
@@ -53,6 +70,12 @@ public class Main {
         }
     }
 
+    /**
+     * Ejercicio 2: muestra por pantalla los ficheros con extensión {@code .txt}
+     * de un directorio junto con su fecha de última modificación.
+     *
+     * @param ruta ruta del directorio donde buscar los ficheros .txt
+     */
     public static void ej2(String ruta) {
         System.out.println("---- COMIENZO EJERCICIO 2 ----");
         File dir = new File(ruta);
@@ -71,6 +94,10 @@ public class Main {
         System.out.println("----- FIN DE EJERCICIO 2 -----\n");
     }
 
+    /**
+     * Ejercicio 3: pide una ruta por teclado e indica si existe y
+     * si se trata de un archivo o de un directorio.
+     */
     public static void ej3(){
         System.out.println("---- COMIENZO EJERCICIO 3 ----");
         System.out.printf("Introduce la ruta: ");
@@ -91,6 +118,12 @@ public class Main {
         System.out.println("----- FIN DE EJERCICIO 3 -----\n");
     }
 
+    /**
+     * Ejercicio 4: crea un árbol de directorios con {@link Files#createDirectories},
+     * incluyendo los directorios intermedios que falten.
+     *
+     * @param ruta ruta completa del directorio a crear
+     */
     public static void ej4(String ruta){
         System.out.println("---- COMIENZO EJERCICIO 4 ----");
         Path dir = Paths.get(ruta);
@@ -102,6 +135,12 @@ public class Main {
         System.out.println("----- FIN DE EJERCICIO 4 -----\n");
     }
 
+    /**
+     * Ejercicio 5: crea un fichero con fecha de modificación antigua (999 días atrás)
+     * y elimina recursivamente todos los ficheros del directorio dado con más de 7 días de antigüedad.
+     *
+     * @param ruta ruta del directorio en el que se procesan los ficheros antiguos
+     */
     public static void ej5(String ruta){
         System.out.println("---- COMIENZO EJERCICIO 5 ----");
         try {
@@ -117,6 +156,13 @@ public class Main {
         System.out.println("----- FIN DE EJERCICIO 5 -----\n");
     }
 
+    /**
+     * Recorre recursivamente una ruta y elimina los ficheros cuya fecha de
+     * última modificación sea anterior a 7 días. Los subdirectorios se recorren
+     * pero, si quedan vacíos, no se eliminan.
+     *
+     * @param p ruta actual que se está recorriendo
+     */
     public static void eliminarContenidoRecursivo(Path p){
         File dir = new File(String.valueOf(p));
         if (dir.isDirectory()) {
@@ -138,6 +184,15 @@ public class Main {
         }
     }
 
+    /**
+     * Ejercicio 6: copia en un directorio destino todos los ficheros de otro
+     * directorio que tengan una extensión dada. Antes de copiar restaura el
+     * estado original de los ficheros mediante {@link Util.RestaurarArchivos}.
+     *
+     * @param ruta1 directorio origen del que se copian los ficheros
+     * @param ruta2 directorio destino donde se copian
+     * @param type  extensión de los ficheros a copiar (sin punto), por ejemplo {@code "txt"}
+     */
     public static void ej6(String ruta1, String ruta2, String type){
         System.out.println("---- COMIENZO EJERCICIO 6 ----");
         Util.RestaurarArchivos.restaurarBackup();
@@ -156,6 +211,12 @@ public class Main {
         System.out.println("----- FIN DE EJERCICIO 6 -----\n");
     }
 
+    /**
+     * Ejercicio 7: recorre los ficheros (no directorios) del directorio dado
+     * y muestra su nombre y tamaño aproximado en MB.
+     *
+     * @param ruta ruta del directorio cuyo contenido se mide
+     */
     public static void ej7(String ruta){
         System.out.println("---- COMIENZO EJERCICIO 7 ----");
         Path dir1 = Paths.get(ruta);

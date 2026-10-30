@@ -1,4 +1,9 @@
 
+/**
+ * Clase de entrada principal del proyecto. Ejecuta de forma encadenada los
+ * métodos {@code main} de todos los apartados (1 a 7) con ejercicios de
+ * acceso a datos y, al terminar, restaura el estado original de los ficheros.
+ */
 void main() throws IOException {
     Apartado1.Main.main();
     Apartado2.Main.main();

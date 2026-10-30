@@ -15,7 +15,16 @@ import java.util.zip.GZIPOutputStream;
         System.out.println("----- FIN DE EJERCICIO x -----\n");
     }
 */
+/**
+ * Apartado 4: ejercicios de escritura y lectura de ficheros con
+ * {@link BufferedWriter}/{@link FileWriter}, {@link DataOutputStream}/
+ * {@link DataInputStream}, serialización de objetos y compresión GZIP.
+ */
 public class Main {
+    /** Punto de entrada del apartado 4. Prepara las listas de datos y ejecuta los ejercicios 1 al 4.
+     *
+     * @throws IOException si falla alguna operación de ficheros implicada
+     */
     public static void main() throws IOException {
         System.out.println("----- COMIENZO PAQUETE 4 -----");
         List<Producto> productList = List.of(
@@ -37,6 +46,13 @@ public class Main {
         System.out.println("------ FIN DE PAQUETE 4 ------\n\n\n");
     }
 
+    /**
+     * Ejercicio 1: escribe una lista de productos en un fichero CSV,
+     * una línea por producto.
+     *
+     * @param ruta         ruta del fichero CSV de destino
+     * @param productList  lista de productos a escribir
+     */
     public static void ej1(String ruta, List<Producto> productList){
         System.out.println("---- COMIENZO EJERCICIO 1 ----");
         Path dir = Paths.get(ruta);
@@ -52,6 +68,14 @@ public class Main {
         System.out.println("----- FIN DE EJERCICIO 1 -----\n");
     }
 
+    /**
+     * Ejercicio 2: escribe la lista de productos en un fichero binario con
+     * {@link DataOutputStream} (id, longitud del nombre, caracteres del nombre y
+     * precio) y a continuación los lee de vuelta con {@link DataInputStream}.
+     *
+     * @param ruta        ruta del fichero binario de destino
+     * @param productList lista de productos a escribir
+     */
     public static void ej2(String ruta, List<Producto> productList) {
         System.out.println("---- COMIENZO EJERCICIO 2 ----");
         Path dir = Paths.get(ruta);
@@ -88,6 +112,13 @@ public class Main {
         System.out.println("----- FIN DE EJERCICIO 2 -----\n");
     }
 
+    /**
+     * Ejercicio 3: serializa una lista de alumnos en un fichero con
+     * {@link ObjectOutputStream} y después los lee y muestra con {@link ObjectInputStream}.
+     *
+     * @param ruta       ruta del fichero binario de destino
+     * @param alumnoList lista de alumnos a serializar
+     */
     public static void ej3(String ruta, List<Alumno> alumnoList){
         System.out.println("---- COMIENZO EJERCICIO 3 ----");
         Path dir = Paths.get(ruta);
@@ -111,6 +142,14 @@ public class Main {
         System.out.println("----- FIN DE EJERCICIO 3 -----\n");
     }
 
+    /**
+     * Ejercicio 4: escribe la lista de productos en un fichero binario comprimido
+     * con GZIP y lo lee tres veces: una sin descomprimir (datos ilegibles desde el
+     * fichero comprimido) y otra descomprimiendo con {@link GZIPInputStream}.
+     *
+     * @param ruta        ruta del fichero comprimido de destino
+     * @param productList lista de productos a escribir
+     */
     public static void ej4(String ruta, List<Producto> productList){
         System.out.println("---- COMIENZO EJERCICIO 4 ----");
         Path dir = Paths.get(ruta);

@@ -1,5 +1,6 @@
 package com.example.practicatema2
 
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.widget.Space
@@ -30,6 +31,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
@@ -37,7 +39,7 @@ import androidx.compose.ui.unit.dp
 import com.example.practicatema2.ui.theme.PracticaTema2Theme
 import java.time.LocalDate
 
-class MainActivity : ComponentActivity() {
+class LlegadaActivity : ComponentActivity() {
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -186,9 +188,14 @@ class MainActivity : ComponentActivity() {
                             }
 
                         }
-                        
+
                         Spacer(Modifier.weight(1f))
-                        Button(onClick = {}) {
+                        val context = LocalContext.current
+                        Button(onClick = {
+                            val intent = Intent(context, NuevaTareaActivity::class.java).apply{
+
+                            }
+                        }) {
                             Text(
                                 "Añadir tareas",
                                 modifier = Modifier
