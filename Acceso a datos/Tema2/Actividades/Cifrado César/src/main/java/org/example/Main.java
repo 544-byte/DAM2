@@ -28,7 +28,22 @@ public class Main {
 
 
     private static ArrayList<String> cifrarMensaje(ArrayList<String> mensaje){
-        final String abecedario = "abcdefghijklmnopqrstuvwxyz"
+        final String abecedario = "abcdefghijklmnopqrstuvwxyz123456789 ";
+        ArrayList<String> mensajeCifrado = new ArrayList<>();
+        for (String linea : mensaje){
+            int desplazamiento = Integer.parseInt(linea.split(";")[0]);
+            String texto = linea.split(";")[1];
+            String lineaCifrada = "";
+            for (char c : texto.toCharArray()){
+                if (abecedario.indexOf(c) != -1) {
+                    lineaCifrada += abecedario.charAt((abecedario.indexOf(c) + desplazamiento) % abecedario.length());
+                } else {
+                    lineaCifrada += c;
+                }
+            }
+            mensajeCifrado.add(lineaCifrada);
+        }
+        return mensajeCifrado;
     }
 
     private static ArrayList<String> leerArchivo(String ruta){
@@ -61,11 +76,8 @@ public class Main {
         for (String linea : lineas){
             if ((Integer.parseInt(linea.split(";")[0]) < 1) || (Integer.parseInt(linea.split(";")[0]) > 25)){
                 return false;
-            } else {
-                return true;
             }
         }
-        System.out.println("Algo no ha ido bien");
-        return false;
+        return true;
     }
 }
