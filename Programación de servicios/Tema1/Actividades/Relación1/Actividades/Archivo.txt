@@ -1,0 +1,111 @@
+He hecho el texto con IA, no me mates.
+
+Hoy empieza la prueba del archivo.
+Estamos comprobando el funcionamiento.
+La palabra java aparece aquí.
+Esta línea no contiene nada especial.
+Seguimos escribiendo texto.
+java es un lenguaje muy conocido.
+Una línea cualquiera.
+Otra línea cualquiera.
+El archivo sigue creciendo.
+java vuelve a aparecer.
+
+Probando la lectura de archivos.
+Nada interesante por aquí.
+Los búferes ayudan al rendimiento.
+java está presente.
+Una frase genérica.
+Otra frase genérica.
+Comprobando coincidencias.
+java.
+Texto de relleno.
+Fin del primer bloque.
+
+Inicio del segundo bloque.
+Seguimos rellenando líneas.
+java aparece una vez más.
+Lectura correcta.
+Escritura correcta.
+Procesamiento correcto.
+Todo parece funcionar.
+java debería contarse.
+Esta línea no.
+Tampoco esta.
+
+Continuamos.
+java otra vez.
+Más texto.
+Más texto aún.
+Más y más texto.
+Archivo de prueba.
+Línea sin palabra clave.
+java presente.
+Línea de relleno.
+Línea de relleno.
+
+Mitad del archivo.
+java.
+Seguimos avanzando.
+El contador debería aumentar.
+Sin palabra clave.
+java encontrado.
+Otra línea.
+Otra más.
+Otra más todavía.
+Fin del quinto bloque.
+
+Comienza la segunda mitad.
+java vuelve a salir.
+Texto libre.
+Texto libre.
+java está aquí.
+Nada nuevo.
+Comprobación.
+Validación.
+java detectado.
+Seguimos.
+
+Línea normal.
+Línea normal.
+java.
+Línea normal.
+Línea normal.
+Línea normal.
+java aparece.
+Más texto.
+Más texto.
+Más texto.
+
+Entramos en la recta final.
+java.
+Texto cualquiera.
+Texto cualquiera.
+java presente.
+Continuamos.
+Continuamos.
+Continuamos.
+java.
+Fin de otro bloque.
+
+Quedan pocas líneas.
+java encontrado.
+Prueba de búsqueda.
+Prueba de lectura.
+Prueba de conteo.
+java vuelve.
+Línea sin coincidencia.
+Línea sin coincidencia.
+java una vez más.
+Ya casi terminamos.
+
+Último tramo.
+java.
+Seguimos.
+Seguimos.
+Seguimos.
+java detectado.
+Penúltimas líneas.
+Todo correcto.
+java aparece por última vez.
+Fin del archivo de prueba.
