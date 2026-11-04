@@ -1,6 +1,6 @@
 package org.example.project.models
 
-data class ParcelaM(
+data class ParcelaModel(
     val id : Int,
     val name : String,
     val cropType : String,

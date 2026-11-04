@@ -1,6 +1,5 @@
 package org.example.project.views
 
-import androidx.compose.foundation.gestures.snapping.SnapPosition
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -9,12 +8,8 @@ import androidx.compose.foundation.layout.FlexBox
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.style.FontSizeScope
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
@@ -26,17 +21,14 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.min
 import androidx.compose.ui.unit.sp
-import androidx.lifecycle.viewmodel.compose.viewModel
-import org.example.project.models.ParcelaM
-import org.example.project.states.ParcelaS
-import org.example.project.viewModels.ParcelaVM
+import org.example.project.states.ParcelaState
+import org.example.project.viewModels.ParcelaViewModel
 
 
 @OptIn(ExperimentalFlexBoxApi::class)
 @Composable
-fun ParcelaV(viewModel : ParcelaVM){
+fun ParcelaV(viewModel : ParcelaViewModel){
     val parcelas = viewModel.uiState.collectAsState().value.parcelas
     Scaffold(Modifier.fillMaxSize()) {
         Box(Modifier.fillMaxSize()){
@@ -99,7 +91,7 @@ fun ParcelaV(viewModel : ParcelaVM){
 }
 
 @Composable
-fun Parcela(parcela : ParcelaM, onCambiarEstado: (ParcelaM) -> Unit){
+fun Parcela(parcela: ParcelaState, onCambiarEstado: (ParcelaState) -> Unit){
 
     Card(
         modifier = Modifier.padding(10.dp)
@@ -137,7 +129,7 @@ fun Parcela(parcela : ParcelaM, onCambiarEstado: (ParcelaM) -> Unit){
                     fontSize = 14.sp
                 )
                 Text(
-                    text="Necesita ${parcela.waterNeeded()} L.",
+                    text="Necesita ${parcela.waterNeeded} L.",
                     Modifier.padding(10.dp,5.dp),
                     fontSize = 14.sp
                 )
