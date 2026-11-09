@@ -71,19 +71,21 @@ class LlegadaActivity : ComponentActivity() {
                                 .background(Color.Green)
                                 .wrapContentHeight(Alignment.CenterVertically),
                             textAlign = TextAlign.Center
-                        )
+                        )   // fecha
                         Spacer(Modifier.padding(15.dp))
                         Row(
                             Modifier.fillMaxWidth(),
                             Arrangement.SpaceBetween,
-                            Alignment.CenterVertically
-                        ) {
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {     // imagen y columna de 3 textos
                             Image(
                                 painterResource(R.drawable.ic_launcher),
                                 "",
                                 Modifier.size(160.dp)
                             )
-                            Column(){
+                            Column(
+                               verticalArrangement = Arrangement.spacedBy(5.dp)
+                            ){
                                 Text("¡Bienvenido!",
                                     modifier = Modifier
                                         .height(40.dp)
@@ -92,7 +94,6 @@ class LlegadaActivity : ComponentActivity() {
                                         .wrapContentHeight(Alignment.CenterVertically),
                                     textAlign = TextAlign.Center
                                 )
-                                Spacer(Modifier.padding(5.dp))
                                 Text("nombre de usuario",
                                     modifier = Modifier
                                         .height(40.dp)
@@ -101,7 +102,6 @@ class LlegadaActivity : ComponentActivity() {
                                         .wrapContentHeight(Alignment.CenterVertically),
                                     textAlign = TextAlign.Center
                                 )
-                                Spacer(Modifier.padding(5.dp))
                                 Text("rol de usuario",
                                     modifier = Modifier
                                         .height(40.dp)
@@ -187,14 +187,13 @@ class LlegadaActivity : ComponentActivity() {
                                 )
                             }
 
-                        }
+                        } // tareas pendientes
 
                         Spacer(Modifier.weight(1f))
                         val context = LocalContext.current
                         Button(onClick = {
-                            val intent = Intent(context, NuevaTareaActivity::class.java).apply{
-
-                            }
+                            val intent = Intent(context, NuevaTareaActivity::class.java)
+                            context.startActivity(intent)
                         }) {
                             Text(
                                 "Añadir tareas",
