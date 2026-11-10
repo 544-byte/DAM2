@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PracticaTema2">
         <activity
-            android:name=".LlegadaActivity"
+            android:name=".PerfilActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.PracticaTema2"
@@ -32,6 +32,13 @@
             />
         <activity
             android:name=".TareaActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.PracticaTema2"
+            android:windowSoftInputMode="adjustResize"
+            />
+        <activity
+            android:name=".LlegadaActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.PracticaTema2"
