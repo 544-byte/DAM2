@@ -70,6 +70,11 @@ class PerfilActivity : ComponentActivity() {
                 val desc = intent.getStringExtra("descripcion")
                 val priority = intent.getStringExtra("prioridad")
                 val limite = intent.getStringExtra("limite")
+                var nombre by remember {mutableStateOf("nombreusuario")}
+                var rol by remember {mutableStateOf("")}
+                var contraseña by remember {mutableStateOf("[Contraseña]")}
+
+
                 Column(
                     modifier = Modifier
                         .fillMaxSize()
@@ -112,22 +117,25 @@ class PerfilActivity : ComponentActivity() {
                                         .size(180.dp)
                                 )   // Imágen
                                 Row{
-                                    Text(
-                                        "[Nombre de usuario]",
+                                    TextField(
+                                        value = nombre,
+                                        onValueChange = {nombre = it},
                                         modifier = Modifier
                                             .weight(1f)
-                                            .height(45.dp)
-                                            .background(Color.Green)
+                                            .height(50.dp)
                                             .wrapContentHeight(Alignment.CenterVertically),
-                                        textAlign = TextAlign.Center
+                                        enabled = false,
+                                        colors = TextFieldDefaults.colors(
+                                            disabledContainerColor = Color.Green
+                                        )
                                     )
                                     Spacer(Modifier.weight(0.5f))
                                     Text(
-                                        "[rol de usuario]",
+                                        rol,
                                         modifier = Modifier
                                             .weight(1f)
-                                            .height(45.dp)
                                             .background(Color.Green)
+                                            .height(50.dp)
                                             .wrapContentHeight(Alignment.CenterVertically),
                                         textAlign = TextAlign.Center
                                     )
@@ -135,18 +143,19 @@ class PerfilActivity : ComponentActivity() {
                             }
                             Row{
                                 var mostrar by remember {mutableStateOf(false)}
-                                var contraseña = "[Contraseña]"
-                                Text(
-                                    if (mostrar) contraseña else "·".repeat(contraseña.length),
+                                TextField(
+                                    value = if (mostrar) contraseña else "·".repeat(contraseña.length),
+                                    onValueChange = {contraseña = it},
                                     modifier = Modifier
-                                        .clickable(true, onClick = { mostrar = !mostrar })
                                         .weight(1f)
-                                        .height(45.dp)
-                                        .background(Color.Cyan)
-                                        .wrapContentHeight(Alignment.CenterVertically),
-                                    textAlign = TextAlign.Center,
-
+                                        .height(50.dp)
+                                        .wrapContentHeight(Alignment.CenterVertically)
+                                        .clickable(true, onClick = { mostrar = !mostrar }),
+                                    enabled = false,
+                                    colors = TextFieldDefaults.colors(
+                                        disabledContainerColor = Color.Cyan
                                     )
+                                )
                             }
                             Column(
                                 Modifier.fillMaxWidth(),
@@ -178,7 +187,6 @@ class PerfilActivity : ComponentActivity() {
                                     Modifier.fillMaxWidth(),
                                     verticalAlignment = Alignment.CenterVertically
                                 ){
-                                    var rol by remember {mutableStateOf("")}
                                     Column(
                                         Modifier.weight(1f)
                                     ){
