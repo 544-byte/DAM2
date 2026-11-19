@@ -22,8 +22,6 @@ class RecetarioViewModel(
     private val _uiState = MutableStateFlow(RecetarioUiState())
     val uiState : StateFlow<RecetarioUiState> = _uiState.asStateFlow()
 
-    var soloFav = false
-
     init {
         cargarRecetas()
     }
@@ -31,7 +29,7 @@ class RecetarioViewModel(
     private fun cargarRecetas() {
         viewModelScope.launch {
             _uiState.update { current ->
-                if (!soloFav) current.copy(getRecetaList().map{ it.toState() })
+                if (!current.soloFav) current.copy(getRecetaList().map{ it.toState() })
                 else
                     current.copy(getFavRecetaList().map { it.toState() })
             }
@@ -39,7 +37,7 @@ class RecetarioViewModel(
     }
 
     fun switchFavoritas(){
-        soloFav = !soloFav
+        _uiState.update { it.copy(soloFav = !it.soloFav) }
         cargarRecetas()
     }
 
