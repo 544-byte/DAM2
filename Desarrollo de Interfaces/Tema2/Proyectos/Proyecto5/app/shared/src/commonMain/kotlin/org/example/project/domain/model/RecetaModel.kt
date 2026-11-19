@@ -1,6 +1,6 @@
-package org.example.project.models
+package org.example.project.domain.model
 
-data class Receta(
+data class RecetaModel(
     val nombre : String,
     val categoria : String,
     val tiempoPreparacion : Int,
