@@ -51,6 +51,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.practicatema2.ui.theme.ModoOscuroSwitch
 import com.example.practicatema2.ui.theme.PracticaTema2Theme
 import java.io.BufferedReader
 import java.io.File
@@ -81,7 +82,9 @@ class TitulosActivity : ComponentActivity() {
                     Row(modifier = Modifier
                         .fillMaxWidth()
                         .height(50.dp)
-                        .background(Color.Gray)) {}
+                        .background(Color.Gray)) {
+                        ModoOscuroSwitch()
+                    }
                     Spacer(Modifier.padding(15.dp))
                     Column(Modifier
                         .fillMaxSize()
@@ -96,9 +99,9 @@ class TitulosActivity : ComponentActivity() {
                         }
                         Button(
                             onClick = {
-                            val intent = Intent(context, LlegadaActivity::class.java)
-                            context.startActivity(intent)
-                        }) {
+                                val intent = Intent(context, LlegadaActivity::class.java)
+                                context.startActivity(intent)
+                            }) {
                             Text(
                                 "Volver al menú principal",
                                 modifier = Modifier

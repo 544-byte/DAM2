@@ -53,6 +53,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.practicatema2.ui.theme.ModoOscuroSwitch
 import com.example.practicatema2.ui.theme.PracticaTema2Theme
 import java.time.LocalDate
 
@@ -84,6 +85,7 @@ class NuevaTareaActivity : ComponentActivity() {
                         .fillMaxWidth()
                         .height(50.dp)
                         .background(Color.Gray)) {
+                        ModoOscuroSwitch()
                     }
                     Spacer(Modifier.padding(15.dp))
                     Column(Modifier
